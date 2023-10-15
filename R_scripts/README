@@ -1,0 +1,7 @@
+## Abrar's message
+
+I modified Nash's 3 scripts to keep up-to-date with the fast-changing versions of R libraries so that future researchers can easily reproduce the results without attempting from the scratch. Just to inform you that you may use R latest version on Unix to run get_identical_seq_locations (1st script) and binned_quantile_kurtosis_genome_ave (2nd script). But to be able to compile the 3rd and final one you need old version of R 3.4.2 which uses somewhat different commands to install packages that I have added as comments. Make sure that you are doing all calculations on Linux based interface, otherwise you may encounter errors while installing packages or running the programs.
+
+sliding_coordinates.R: generates coordinates for the sliding window of window size = 50kb and sliding parameter step size = 1kb
+sliding_pcs.R: generates PCS for the sliding window of window size = 50kb and sliding parameter step size = 1kb
+window_intersection_with_HOX.R: intersects the 50kb window PCS coordinates with the HOX genes coordinates to check if the special or anomalous windows fall in this HOX genes regions or not

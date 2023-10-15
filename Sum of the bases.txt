@@ -1,0 +1,30 @@
+cat "/bucket/.mabuya/MillerU/Abrar/hg19-mm10_outputs/get_identical_seq_loc_hg19-mm10_vanilla_L20/all/hg19_mm10_all_identical_seqs.tsv" | awk '{sum+=$4} END{print "sum=",sum}'
+
+26053342/3095677412
+=0.00842
+=0.842%
+
+cat "/bucket/.mabuya/MillerU/Abrar/hg19-mm10_outputs/get_identical_seq_loc_hg19-mm10_all/all/hg19_mm10_all_identical_seqs.tsv" | awk '{sum+=$4} END{print "sum=",sum}'
+
+537257489/3095677412
+=0.17355
+=17.36%
+
+cat "/bucket/.mabuya/MillerU/Abrar/hg19-mm10_outputs/pcs_sequences/all/hg19_mm10_all_pcs_seqs_with_repeats.tsv" | awk '{sum+=$10} END{print "sum=",sum}'
+
+698628641/3095677412
+=0.2257
+=22.57%
+
+cat "/bucket/.mabuya/MillerU/Abrar/hg19-mm10_outputs/get_identical_seq_loc_hg19-mm10_vanilla_L10/all/hg19_mm10_all_identical_seqs.tsv" | awk '{sum+=$4} END{print "sum=",sum}'
+
+95164916/3095677412
+=0.0307
+=3.074%
+
+
+
+
+
+
+

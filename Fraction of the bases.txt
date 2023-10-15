@@ -1,0 +1,32 @@
+## Get the total number of Human genome bases from hg38.chrom.sizes
+
+$ cat /d/Research/OIST/Project/new/hg38.chrom.sizes | awk '{sum+=$2} END{print "sum=",sum}'
+
+sum = 3209286105
+
+## Fraction of thesholded PCS bases following power-law
+
+$ cat "/bucket/.mabuya/MillerU/Abrar/hg38-mm39_outputs/get_identical_seq_loc_hg38-mm39_vanilla_L20/all/hg38_mm39_all_identical_seqs.tsv" | awk '{sum+=$4} END{print "sum=",sum}'
+
+26053342/3209286105
+=0.00842
+=0.842%
+
+## Fraction of all PCS bases
+
+$ cat "/bucket/.mabuya/MillerU/Abrar/hg38-mm39_outputs/get_identical_seq_loc_hg38-mm39_all/all/hg38_mm39_all_identical_seqs.tsv" | awk '{sum+=$4} END{print "sum=",sum}'
+
+537257489/3209286105
+=0.17355
+=17.36%
+
+## Fraction of (vanilla + repetitive sequence0 PCS bases
+$ cat "/bucket/.mabuya/MillerU/Abrar/hg38-mm39_outputs/pcs_sequences/all/hg38_mm39_all_pcs_seqs_with_repeats.tsv" | awk '{sum+=$10} END{print "sum=",sum}'
+
+698628641/3209286105
+=0.2257
+=22.57%
+
+
+
+

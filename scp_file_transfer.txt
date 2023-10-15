@@ -1,0 +1,9 @@
+scp 'chr1.hg38.micMur3.net.axt' 'chr2.hg38.micMur3.net.axt' 'chr3.hg38.micMur3.net.axt' 'chr4.hg38.micMur3.net.axt' 'chr5.hg38.micMur3.net.axt' 'chr6.hg38.micMur3.net.axt' 'chr7.hg38.micMur3.net.axt' 'chr8.hg38.micMur3.net.axt' 'chr9.hg38.micMur3.net.axt' 'chr10.hg38.micMur3.net.axt' 'chr11.hg38.micMur3.net.axt' 'chr12.hg38.micMur3.net.axt' 'chr13.hg38.micMur3.net.axt' 'chr14.hg38.micMur3.net.axt' 'chr15.hg38.micMur3.net.axt' 'chr16.hg38.micMur3.net.axt' 'chr17.hg38.micMur3.net.axt' 'chr18.hg38.micMur3.net.axt' 'chr19.hg38.micMur3.net.axt' 'chr20.hg38.micMur3.net.axt' 'chr21.hg38.micMur3.net.axt' 'chr22.hg38.micMur3.net.axt' 'chrX.hg38.micMur3.net.axt' 'chrY.hg38.micMur3.net.axt' md-jahin@deigo.oist.jp:/bucket/.mabuya/MillerU/Abrar/axtNet/hg38micMur3/
+
+
+scp -r hg38calJac4/ hg38danRer10/ hg38equCab3/ hg38felCat9/ hg38galGal6/ hg38ornAna2/ hg38oryCun2/ hg38oviAri4/ hg38petMar3/ hg38susScr11/ hg38tarSyr2/ hg38thaSir1/ hg38triMan1/ hg38xenTro10/ md-jahin@deigo.oist.jp:/bucket/.mabuya/MillerU/Abrar/axtNet/
+
+scp -r hg38-calJac4/ hg38-danRer10/ hg38-equCab3/ hg38-felCat9/ hg38-galGal6/ hg38-ornAna2/ hg38-oryCun2/ hg38-oviAri4/ hg38-petMar3/ hg38-susScr11/ hg38-tarSyr2/ hg38-thaSir1/ hg38-triMan1/ hg38-xenTro10/ md-jahin@deigo.oist.jp:/bucket/.mabuya/MillerU/Abrar/PCS/
+
+
+scp -r hg38panPan3/ hg38panTro6/ md-jahin@deigo.oist.jp:/bucket/.mabuya/MillerU/Abrar/axtNet/

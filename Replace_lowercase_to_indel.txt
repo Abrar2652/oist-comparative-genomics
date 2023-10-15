@@ -1,0 +1,55 @@
+cd /bucket/.mabuya/MillerU/Abrar/axtNet/hg19gorGor3/
+
+#Delete first 6 lines
+sed -i 1,6d chr1.hg19.gorGor3.net.axt
+sed -i 1,6d chr2.hg19.gorGor3.net.axt
+sed -i 1,6d chr3.hg19.gorGor3.net.axt
+sed -i 1,6d chr4.hg19.gorGor3.net.axt
+sed -i 1,6d chr5.hg19.gorGor3.net.axt
+sed -i 1,6d chr6.hg19.gorGor3.net.axt
+sed -i 1,6d chr7.hg19.gorGor3.net.axt
+sed -i 1,6d chr8.hg19.gorGor3.net.axt
+sed -i 1,6d chr9.hg19.gorGor3.net.axt
+sed -i 1,6d chr10.hg19.gorGor3.net.axt
+sed -i 1,6d chr11.hg19.gorGor3.net.axt
+sed -i 1,6d chr12.hg19.gorGor3.net.axt
+sed -i 1,6d chr13.hg19.gorGor3.net.axt
+sed -i 1,6d chr14.hg19.gorGor3.net.axt
+sed -i 1,6d chr15.hg19.gorGor3.net.axt
+sed -i 1,6d chr16.hg19.gorGor3.net.axt
+sed -i 1,6d chr17.hg19.gorGor3.net.axt
+sed -i 1,6d chr18.hg19.gorGor3.net.axt
+sed -i 1,6d chr19.hg19.gorGor3.net.axt
+sed -i 1,6d chr20.hg19.gorGor3.net.axt
+sed -i 1,6d chr21.hg19.gorGor3.net.axt
+sed -i 1,6d chr22.hg19.gorGor3.net.axt
+sed -i 1,6d chrX.hg19.gorGor3.net.axt
+sed -i 1,6d chrY.hg19.gorGor3.net.axt
+
+
+#Replace a,t,c,g with '-'
+perl -i -pe 's/[actg]/-/g if !/ /' chr1.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr2.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr3.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr4.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr5.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr6.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr7.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr8.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr9.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr10.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr11.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr12.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr13.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr14.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr15.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr16.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr17.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr18.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr19.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr20.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr21.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chr22.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chrX.hg19.gorGor3.net.axt
+perl -i -pe 's/[actg]/-/g if !/ /' chrY.hg19.gorGor3.net.axt
+
