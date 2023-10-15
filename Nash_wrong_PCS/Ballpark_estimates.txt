@@ -1,0 +1,23 @@
+What fraction of Nash's PCS coordinates was wrong?
+
+I calculated the total number of out-of-bound PCS bases of the UCSC AXT files using BEDTOOL. Then divided the it by the total number of PCS bases counted. 
+
+This calculation has been carried out considering two cases: including repetitive sequences, excluding repetitive sequences.
+
+Nash's get_identical_seq_locations.R generates the PCS including repetitive sequences. That's why it's hard to interpret exactly how many PCS were wrongly calculated by Nash. Because PCS should not include repeats in original sense. 
+
+So, what I did was reproduced same TSV format files with wrongly calculated coordinates, however, excluding repeats. This is how we can interpret exactly how many coordinates were not accurately identified by Nash and Lenhard.
+
+
+Including repeats: 
+
+numerator: 24656306 (sumproduct)
+denominator: 698628641 (sumproduct)
+fraction: 3.529243514080323 %
+
+
+Including repeats (hg19/gorGor3):
+numerator: 3321243 (sumproduct)
+denominator: 2523366474 (sumproduct)
+fraction: 0.13161952630428742 %
+
