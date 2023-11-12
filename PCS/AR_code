@@ -1,0 +1,42 @@
+Hi Abrar,
+
+I have used DateRepeats from RepeatMAsker to identify repeats that were present in common ancestor of human and mouse (AR sequnces).
+
+You can find the coordinates of these AR sequences in hg19 genome here: /bucket/MillerU/Zifcakova/genome_coordinates2/AR/hg19_mm10_AR_positions_in_human.bed 
+
+Best,
+Lucia
+
+
+This is the code I have used to get them:
+
+/bucket/MillerU/Zifcakova/software/RepeatMasker_2011/DateRepeats /flash/MillerU/hg19.fa.out -query human -comp mouse
+
+
+
+
+#output
+/flash/MillerU/hg19.fa.out_mus-musculus
+
+awk '$16=="X" {print $5,$6,$7}' OFS="\t" hg19.fa.out_mus-musculus > hg19_mm10_AR_positions_in_human.bed
+
+mv hg19_mm10_AR_positions_in_human.bed /bucket/MillerU/Zifcakova/genome_coordinates2/AR
+mv hg19.fa.out_mus-musculus /bucket/MillerU/Zifcakova/genome_coordinates2/AR
+
+
+My Codes:
+
+
+/bucket/MillerU/Zifcakova/software/RepeatMasker_2011/DateRepeats -species primates /bucket/MillerU/Abrar/RepeatMasker/human_gorilla.out
+
+Downloaded gorGor3.fa.out and hg38.fa.out
+
+cat /bucket/MillerU/Abrar/RepeatMasker/hg38.fa.out /bucket/MillerU/Abrar/RepeatMasker/gorGor3.fa.out > /bucket/MillerU/Abrar/RepeatMasker/human_gorilla.out
+
+DateRepeats.pl -species human,mouse -genome hg38.fa,GRCm39.p6.fa -workdir ancestral_repeats -lib /path/to/human-mouse.lib -noanno -nolow -clean -run -threads 16
+
+
+https://github.com/zhangrengang/TEsorter
+
+
+
