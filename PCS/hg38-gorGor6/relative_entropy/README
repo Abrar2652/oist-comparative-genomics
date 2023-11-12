@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+
+                  (i) adding 1 to all p and q results in 33.73976
+                  (ii) putting (1/(3*(10**9))) instead of all 0s of q_i (not p_i) results in 215.48
+                  (iii) (to avoid q=0) putting 0s in case of all infinity results in 13.26

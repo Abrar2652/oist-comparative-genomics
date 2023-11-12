@@ -1,0 +1,621 @@
+#reference	pair	chrom	window_number	relative_entropy
+#hg38/gorGor6	hg38/mm39	1	
+1	2.672498917
+#hg38/gorGor6	hg38/mm39	1	
+2	2.702841749
+#hg38/gorGor6	hg38/mm39	1	
+3	2.48369229
+#hg38/gorGor6	hg38/mm39	1	
+4	2.716065785
+#hg38/gorGor6	hg38/mm39	1	
+5	2.751420455
+#hg38/gorGor6	hg38/mm39	1	
+6	2.748957927
+#hg38/gorGor6	hg38/mm39	1	
+7	2.909792999
+#hg38/gorGor6	hg38/mm39	1	
+8	2.455473787
+#hg38/gorGor6	hg38/mm39	1	
+9	2.855334069
+#hg38/gorGor6	hg38/mm39	1	
+10	2.677629353
+#hg38/gorGor6	hg38/mm39	1	
+11	2.33679892
+#hg38/gorGor6	hg38/mm39	1	
+12	2.584481225
+#hg38/gorGor6	hg38/mm39	1	
+13	1.57080153
+#hg38/gorGor6	hg38/mm39	1	
+14	0
+#hg38/gorGor6	hg38/mm39	1	
+15	2.143604563
+hg38/gorGor6	hg38/mm39	1	
+16	2.546672732
+#hg38/gorGor6	hg38/mm39	1	
+17	2.676108781
+#hg38/gorGor6	hg38/mm39	1	
+18	2.55083192
+#hg38/gorGor6	hg38/mm39	1	
+19	2.497393842
+#hg38/gorGor6	hg38/mm39	1	
+20	2.546170857
+#hg38/gorGor6	hg38/mm39	1	
+21	2.734180495
+#hg38/gorGor6	hg38/mm39	1	
+22	2.873650148
+#hg38/gorGor6	hg38/mm39	1	
+23	2.541527692
+#hg38/gorGor6	hg38/mm39	1	
+24	2.252293689
+&
+#hg38/gorGor6	hg38/mm39	2	
+1	2.628432323
+#hg38/gorGor6	hg38/mm39	2	
+2	2.553583903
+#hg38/gorGor6	hg38/mm39	2	
+3	2.568275106
+#hg38/gorGor6	hg38/mm39	2	
+4	2.75444376
+#hg38/gorGor6	hg38/mm39	2	
+5	2.801033367
+#hg38/gorGor6	hg38/mm39	2	
+6	2.911210456
+#hg38/gorGor6	hg38/mm39	2	
+7	2.714044538
+#hg38/gorGor6	hg38/mm39	2	
+8	2.50448171
+#hg38/gorGor6	hg38/mm39	2	
+9	2.484690667
+#hg38/gorGor6	hg38/mm39	2	
+10	2.265039915
+#hg38/gorGor6	hg38/mm39	2	
+11	2.790275395
+#hg38/gorGor6	hg38/mm39	2	
+12	2.480199499
+#hg38/gorGor6	hg38/mm39	2	
+13	2.105391455
+#hg38/gorGor6	hg38/mm39	2	
+14	2.28511022
+#hg38/gorGor6	hg38/mm39	2	
+15	2.930512491
+#hg38/gorGor6	hg38/mm39	2	
+16	2.949248546
+#hg38/gorGor6	hg38/mm39	2	
+17	2.920448285
+#hg38/gorGor6	hg38/mm39	2	
+18	2.840869782
+#hg38/gorGor6	hg38/mm39	2	
+19	2.501149041
+#hg38/gorGor6	hg38/mm39	2	
+20	2.774566092
+#hg38/gorGor6	hg38/mm39	2	
+21	2.664663838
+#hg38/gorGor6	hg38/mm39	2	
+22	2.711486029
+#hg38/gorGor6	hg38/mm39	2	
+23	2.671377657
+#hg38/gorGor6	hg38/mm39	2	
+24	2.698679067
+&
+#hg38/gorGor6	hg38/mm39	3	
+1	2.685605165
+#hg38/gorGor6	hg38/mm39	3	
+2	2.744971622
+#hg38/gorGor6	hg38/mm39	3	
+3	2.486395824
+#hg38/gorGor6	hg38/mm39	3	
+4	2.376985886
+#hg38/gorGor6	hg38/mm39	3	
+5	2.271557793
+#hg38/gorGor6	hg38/mm39	3	
+6	2.654265342
+#hg38/gorGor6	hg38/mm39	3	
+7	2.886048338
+#hg38/gorGor6	hg38/mm39	3	
+8	2.90918072
+#hg38/gorGor6	hg38/mm39	3	
+9	2.478207373
+#hg38/gorGor6	hg38/mm39	3	
+10	1.988682325
+#hg38/gorGor6	hg38/mm39	3	
+11	2.501211156
+#hg38/gorGor6	hg38/mm39	3	
+12	2.8719602
+#hg38/gorGor6	hg38/mm39	3	
+13	2.419717276
+#hg38/gorGor6	hg38/mm39	3	
+14	2.784732884
+#hg38/gorGor6	hg38/mm39	3	
+15	2.570539766
+#hg38/gorGor6	hg38/mm39	3	
+16	2.886386707
+#hg38/gorGor6	hg38/mm39	3	
+17	2.628480101
+#hg38/gorGor6	hg38/mm39	3	
+18	2.472595665
+#hg38/gorGor6	hg38/mm39	3	
+19	2.685463443
+&
+#hg38/gorGor6	hg38/mm39	4	
+1	2.591074229
+#hg38/gorGor6	hg38/mm39	4	
+2	2.775764024
+#hg38/gorGor6	hg38/mm39	
+4	3	2.657498797
+#hg38/gorGor6	hg38/mm39	4	
+4	2.548537395
+#hg38/gorGor6	hg38/mm39	4	
+5	2.569849778
+#hg38/gorGor6	hg38/mm39	4	
+6	2.348742275
+#hg38/gorGor6	hg38/mm39	4	
+7	2.4922751
+#hg38/gorGor6	hg38/mm39	4	
+8	2.66530203
+#hg38/gorGor6	hg38/mm39	4	
+9	2.874372618
+#hg38/gorGor6	hg38/mm39	4	
+10	2.560965592
+#hg38/gorGor6	hg38/mm39	4	
+11	2.636044201
+#hg38/gorGor6	hg38/mm39	4	
+12	2.625730194
+#hg38/gorGor6	hg38/mm39	4	
+13	2.294193785
+#hg38/gorGor6	hg38/mm39	4	
+14	2.388090851
+#hg38/gorGor6	hg38/mm39	4	
+15	2.714770028
+#hg38/gorGor6	hg38/mm39	4	
+16	2.722776209
+#hg38/gorGor6	hg38/mm39	4	
+17	2.292595921
+#hg38/gorGor6	hg38/mm39	4	
+18	2.552938787
+#hg38/gorGor6	hg38/mm39	4	
+19	2.779302991
+&
+#hg38/gorGor6	hg38/mm39	5	
+1	2.744803835
+#hg38/gorGor6	hg38/mm39	5	
+2	2.621397979
+#hg38/gorGor6	hg38/mm39	5	
+3	2.162787298
+#hg38/gorGor6	hg38/mm39	5	
+4	2.593994112
+#hg38/gorGor6	hg38/mm39	5	
+5	2.234220727
+#hg38/gorGor6	hg38/mm39	5	
+6	2.841962708
+#hg38/gorGor6	hg38/mm39	5	
+7	2.688809821
+#hg38/gorGor6	hg38/mm39	5	
+8	2.746101614
+#hg38/gorGor6	hg38/mm39	5	
+9	2.781833585
+#hg38/gorGor6	hg38/mm39	5	
+10	2.869945233
+#hg38/gorGor6	hg38/mm39	5	
+11	2.620842928
+#hg38/gorGor6	hg38/mm39	5	
+12	2.332674969
+#hg38/gorGor6	hg38/mm39	5	
+13	2.718926239
+#hg38/gorGor6	hg38/mm39	5	
+14	2.709393039
+#hg38/gorGor6	hg38/mm39	5	
+15	2.812881065
+#hg38/gorGor6	hg38/mm39	5	
+16	2.788308992
+#hg38/gorGor6	hg38/mm39	5	
+17	2.743886396
+#hg38/gorGor6	hg38/mm39	5	
+18	2.672630202
+&
+#hg38/gorGor6	hg38/mm39	6	
+1	2.817550903
+#hg38/gorGor6	hg38/mm39	6	
+2	2.906545414
+#hg38/gorGor6	hg38/mm39	6	
+3	2.451073236
+#hg38/gorGor6	hg38/mm39	6	
+4	2.279853157
+#hg38/gorGor6	hg38/mm39	6	
+5	2.72339487
+#hg38/gorGor6	hg38/mm39	6	
+6	2.81930524
+#hg38/gorGor6	hg38/mm39	6	
+7	2.531461119
+#hg38/gorGor6	hg38/mm39	6	
+8	2.469373547
+#hg38/gorGor6	hg38/mm39	6	
+9	2.506740447
+#hg38/gorGor6	hg38/mm39	6	
+10	2.836058297
+#hg38/gorGor6	hg38/mm39	6	
+11	2.739680579
+#hg38/gorGor6	hg38/mm39	6	
+12	2.637472172
+#hg38/gorGor6	hg38/mm39	6	
+13	2.349865447
+#hg38/gorGor6	hg38/mm39	6	
+14	2.723756006
+#hg38/gorGor6	hg38/mm39	6	
+15	2.648402632
+#hg38/gorGor6	hg38/mm39	6	
+16	2.762584068
+#hg38/gorGor6	hg38/mm39	6	
+17	2.539904339
+&
+#hg38/gorGor6	hg38/mm39	7	
+1	2.593774512
+#hg38/gorGor6	hg38/mm39	7	
+2	2.828845365
+#hg38/gorGor6	hg38/mm39	7	
+3	2.918751314
+#hg38/gorGor6	hg38/mm39	7	
+4	2.861121704
+#hg38/gorGor6	hg38/mm39	7	
+5	2.660390999
+#hg38/gorGor6	hg38/mm39	7	
+6	2.267075528
+#hg38/gorGor6	hg38/mm39	7	
+7	2.004724181
+#hg38/gorGor6	hg38/mm39	7	
+8	2.533784378
+#hg38/gorGor6	hg38/mm39	7	
+9	2.632306792
+#hg38/gorGor6	hg38/mm39	7	
+10	2.584721391
+#hg38/gorGor6	hg38/mm39	7	
+11	2.633503219
+#hg38/gorGor6	hg38/mm39	7	
+12	2.994571256
+#hg38/gorGor6	hg38/mm39	7	
+13	2.641263429
+#hg38/gorGor6	hg38/mm39	7	
+14	2.698537654
+#hg38/gorGor6	hg38/mm39	7	
+15	2.46484413
+&
+#hg38/gorGor6	hg38/mm39	8	
+1	2.257226032
+#hg38/gorGor6	hg38/mm39	8	
+2	2.537022132
+#hg38/gorGor6	hg38/mm39	8	
+3	2.772815628
+#hg38/gorGor6	hg38/mm39	8	
+4	2.685855408
+#hg38/gorGor6	hg38/mm39	8	
+5	2.145060655
+#hg38/gorGor6	hg38/mm39	8	
+6	2.703484673
+#hg38/gorGor6	hg38/mm39	8	
+7	2.75240655
+#hg38/gorGor6	hg38/mm39	8	
+8	2.880969024
+#hg38/gorGor6	hg38/mm39	8	
+9	2.388425362
+#hg38/gorGor6	hg38/mm39	8	
+10	2.832547369
+#hg38/gorGor6	hg38/mm39	8	
+11	2.885573104
+#hg38/gorGor6	hg38/mm39	8	
+12	2.780577475
+#hg38/gorGor6	hg38/mm39	8	
+13	2.463928278
+#hg38/gorGor6	hg38/mm39	8	
+14	2.637728411
+&
+#hg38/gorGor6	hg38/mm39	9	
+1	2.712427947
+#hg38/gorGor6	hg38/mm39	9	
+2	2.923495474
+#hg38/gorGor6	hg38/mm39	9	
+3	2.724812119
+#hg38/gorGor6	hg38/mm39	9	
+4	2.588091178
+#hg38/gorGor6	hg38/mm39	9	
+5	1.852947516
+#hg38/gorGor6	hg38/mm39	9	
+6	0
+#hg38/gorGor6	hg38/mm39	9	
+7	2.071069319
+#hg38/gorGor6	hg38/mm39	9	
+8	2.857267098
+#hg38/gorGor6	hg38/mm39	9	
+9	2.653440936
+#hg38/gorGor6	hg38/mm39	9	
+10	2.521045696
+#hg38/gorGor6	hg38/mm39	9	
+11	2.671740484
+#hg38/gorGor6	hg38/mm39	9	
+12	2.678756673
+#hg38/gorGor6	hg38/mm39	9	
+13	2.69321854
+&
+#hg38/gorGor6	hg38/mm39	10	
+1	2.738603493
+#hg38/gorGor6	hg38/mm39	10	
+2	2.66738955
+#hg38/gorGor6	hg38/mm39	10	
+3	2.613796871
+#hg38/gorGor6	hg38/mm39	10	
+4	2.444421511
+#hg38/gorGor6	hg38/mm39	10	
+5	2.648141689
+#hg38/gorGor6	hg38/mm39	10	
+6	2.467252222
+#hg38/gorGor6	hg38/mm39	10	
+7	2.631985409
+#hg38/gorGor6	hg38/mm39	10	
+8	2.753405256
+#hg38/gorGor6	hg38/mm39	10	
+9	2.590359673
+#hg38/gorGor6	hg38/mm39	10	
+10	2.576839078
+#hg38/gorGor6	hg38/mm39	10	
+11	2.911483229
+#hg38/gorGor6	hg38/mm39	10	
+12	2.827453744
+#hg38/gorGor6	hg38/mm39	10	
+13	2.911723349
+&
+#hg38/gorGor6	hg38/mm39	11	
+1	2.567107713
+#hg38/gorGor6	hg38/mm39	11	
+2	2.908950138
+#hg38/gorGor6	hg38/mm39	11	
+3	2.568046455
+#hg38/gorGor6	hg38/mm39	11	
+4	2.839104221
+#hg38/gorGor6	hg38/mm39	11	
+5	2.638015164
+#hg38/gorGor6	hg38/mm39	11	
+6	1.939473284
+#hg38/gorGor6	hg38/mm39	11	
+7	2.476422065
+#hg38/gorGor6	hg38/mm39	11	
+8	2.519053611
+#hg38/gorGor6	hg38/mm39	11	
+9	2.512640651
+#hg38/gorGor6	hg38/mm39	11	
+10	2.293026136
+#hg38/gorGor6	hg38/mm39	11	
+11	2.280236337
+#hg38/gorGor6	hg38/mm39	11	
+12	2.697151777
+#hg38/gorGor6	hg38/mm39	11	
+13	2.857283011
+&
+#hg38/gorGor6	hg38/mm39	12	
+1	2.610591511
+#hg38/gorGor6	hg38/mm39	12	
+2	2.714157199
+#hg38/gorGor6	hg38/mm39	12	
+3	2.805884587
+#hg38/gorGor6	hg38/mm39	12	
+4	2.214505571
+#hg38/gorGor6	hg38/mm39	12	
+5	2.611220124
+#hg38/gorGor6	hg38/mm39	12	
+6	2.6024523
+#hg38/gorGor6	hg38/mm39	12	
+7	2.696259708
+#hg38/gorGor6	hg38/mm39	12	
+8	2.674257385
+#hg38/gorGor6	hg38/mm39	12	
+9	2.552892706
+#hg38/gorGor6	hg38/mm39	12	
+10	2.570202285
+#hg38/gorGor6	hg38/mm39	12	
+11	2.571605662
+#hg38/gorGor6	hg38/mm39	12	
+12	2.39046795
+#hg38/gorGor6	hg38/mm39	12	
+13	2.361348603
+&
+#hg38/gorGor6	hg38/mm39	13	
+1	0
+#hg38/gorGor6	hg38/mm39	13	
+2	1.578758122
+#hg38/gorGor6	hg38/mm39	13	
+3	2.538779443
+#hg38/gorGor6	hg38/mm39	13	
+4	2.607429146
+#hg38/gorGor6	hg38/mm39	13	
+5	2.444230554
+#hg38/gorGor6	hg38/mm39	13	
+6	2.599278271
+#hg38/gorGor6	hg38/mm39	13	
+7	2.68331255
+#hg38/gorGor6	hg38/mm39	13	
+8	2.958687763
+#hg38/gorGor6	hg38/mm39	13	
+9	2.523511697
+#hg38/gorGor6	hg38/mm39	13	
+10	2.840667212
+#hg38/gorGor6	hg38/mm39	13	
+11	2.793606525
+&
+#hg38/gorGor6	hg38/mm39	14	
+1	0
+#hg38/gorGor6	hg38/mm39	14	
+2	1.022979746
+#hg38/gorGor6	hg38/mm39	14	
+3	2.743468358
+#hg38/gorGor6	hg38/mm39	14	
+4	2.712098796
+#hg38/gorGor6	hg38/mm39	14	
+5	2.515101934
+#hg38/gorGor6	hg38/mm39	14	
+6	2.766664666
+#hg38/gorGor6	hg38/mm39	14	
+7	2.579658837
+#hg38/gorGor6	hg38/mm39	14	
+8	2.735652733
+#hg38/gorGor6	hg38/mm39	14	
+9	2.488839943
+#hg38/gorGor6	hg38/mm39	14	
+10	2.782808326
+&
+#hg38/gorGor6	hg38/mm39	15	
+1	0
+#hg38/gorGor6	hg38/mm39	15	
+2	0.127197182
+#hg38/gorGor6	hg38/mm39	15	
+3	2.23799462
+#hg38/gorGor6	hg38/mm39	15	
+4	2.916912426
+#hg38/gorGor6	hg38/mm39	15	
+5	2.494650575
+#hg38/gorGor6	hg38/mm39	15	
+6	2.628367911
+#hg38/gorGor6	hg38/mm39	15	
+7	2.747100331
+#hg38/gorGor6	hg38/mm39	15	
+8	2.637538319
+#hg38/gorGor6	hg38/mm39	15	
+9	2.625227454
+#hg38/gorGor6	hg38/mm39	15	
+10	2.878230678
+&
+#hg38/gorGor6	hg38/mm39	16	
+1	2.621453286
+#hg38/gorGor6	hg38/mm39	16	
+2	2.328097664
+#hg38/gorGor6	hg38/mm39	16	
+3	2.40898142
+#hg38/gorGor6	hg38/mm39	16	
+4	1.892186926
+#hg38/gorGor6	hg38/mm39	16	
+5	2.337155699
+#hg38/gorGor6	hg38/mm39	16	
+6	2.716729762
+#hg38/gorGor6	hg38/mm39	16	
+7	2.5986477
+#hg38/gorGor6	hg38/mm39	16	
+8	2.793259399
+#hg38/gorGor6	hg38/mm39	16	
+9	2.528691202
+&
+#hg38/gorGor6	hg38/mm39	17	
+1	2.513960276
+#hg38/gorGor6	hg38/mm39	17	
+2	2.400847407
+#hg38/gorGor6	hg38/mm39	17	
+3	2.312272752
+#hg38/gorGor6	hg38/mm39	17	
+4	2.727960222
+#hg38/gorGor6	hg38/mm39	17	
+5	2.488594191
+#hg38/gorGor6	hg38/mm39	17	
+6	2.709222007
+#hg38/gorGor6	hg38/mm39	17	
+7	2.649085335
+#hg38/gorGor6	hg38/mm39	17	
+8	2.731485113
+&
+#hg38/gorGor6	hg38/mm39	18	
+1	2.487928449
+#hg38/gorGor6	hg38/mm39	18	
+2	2.041911314
+#hg38/gorGor6	hg38/mm39	18	
+3	2.708053732
+#hg38/gorGor6	hg38/mm39	18	
+4	2.907862866
+#hg38/gorGor6	hg38/mm39	18	
+5	2.874098319
+#hg38/gorGor6	hg38/mm39	18	
+6	2.846352504
+#hg38/gorGor6	hg38/mm39	18	
+7	2.533685559
+#hg38/gorGor6	hg38/mm39	18	
+8	2.87945173
+&
+#hg38/gorGor6	hg38/mm39	19	
+1	2.059366648
+#hg38/gorGor6	hg38/mm39	19	
+2	2.243891751
+#hg38/gorGor6	hg38/mm39	19	
+3	2.083595031
+#hg38/gorGor6	hg38/mm39	19	
+4	2.602333892
+#hg38/gorGor6	hg38/mm39	19	
+5	2.331095592
+&
+#hg38/gorGor6	hg38/mm39	20	
+1	2.499865408
+#hg38/gorGor6	hg38/mm39	20	
+2	2.498944748
+#hg38/gorGor6	hg38/mm39	20	
+3	2.649280733
+#hg38/gorGor6	hg38/mm39	20	
+4	2.445874316
+#hg38/gorGor6	hg38/mm39	20	
+5	2.736794775
+#hg38/gorGor6	hg38/mm39	20	
+6	2.703318496
+&
+#hg38/gorGor6	hg38/mm39	21	
+1	1.312625065
+#hg38/gorGor6	hg38/mm39	21	
+2	2.583200892
+#hg38/gorGor6	hg38/mm39	21	
+3	2.168948731
+#hg38/gorGor6	hg38/mm39	21	
+4	2.761331437
+&
+#hg38/gorGor6	hg38/mm39	22	
+1	0
+#hg38/gorGor6	hg38/mm39	22	
+2	1.95865826
+#hg38/gorGor6	hg38/mm39	22	
+3	2.629360864
+#hg38/gorGor6	hg38/mm39	22	
+4	2.563080973
+#hg38/gorGor6	hg38/mm39	22	
+5	2.53765339
+&
+#hg38/gorGor6	hg38/mm39	X	
+1	1.32025902
+#hg38/gorGor6	hg38/mm39	X	
+2	2.463678141
+#hg38/gorGor6	hg38/mm39	X	
+3	2.629802659
+#hg38/gorGor6	hg38/mm39	X	
+4	2.672452561
+#hg38/gorGor6	hg38/mm39	X	
+5	2.503411603
+#hg38/gorGor6	hg38/mm39	X	
+6	2.070368253
+#hg38/gorGor6	hg38/mm39	X	
+7	2.12933423
+#hg38/gorGor6	hg38/mm39	X	
+8	2.37193853
+#hg38/gorGor6	hg38/mm39	X	
+9	2.484076437
+#hg38/gorGor6	hg38/mm39	X	
+10	2.207336342
+#hg38/gorGor6	hg38/mm39	X	
+11	2.556715208
+#hg38/gorGor6	hg38/mm39	X	
+12	2.388977688
+#hg38/gorGor6	hg38/mm39	X	
+13	2.455668805
+#hg38/gorGor6	hg38/mm39	X	
+14	2.610400638
+#hg38/gorGor6	hg38/mm39	X	
+15	2.584940575
+&
+#hg38/gorGor6	hg38/mm39	Y	
+1	1.53555782
+#hg38/gorGor6	hg38/mm39	Y	
+2	1.477124686
+#hg38/gorGor6	hg38/mm39	Y	
+3	1.408165981
+#hg38/gorGor6	hg38/mm39	Y	
+4	0
+#hg38/gorGor6	hg38/mm39	Y	
+5	0
+&
