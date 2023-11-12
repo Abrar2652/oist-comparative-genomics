@@ -1,0 +1,207 @@
+
+* IGS_analysis
+
+Dataset: These Lunter_IGS plots were reproduced using "/bucket/.mabuya/MillerU/Zifcakova/genome_coordinates2/Lunter/Lunter.bed" file.
+Script: "/bucket/.mabuya/MillerU/Abrar/PCS/AR/AR_plots.py"
+
+Lunter et al.'s Fig-1B seems to have a maximum sequence length of 500, so I explicitly tried to reproduce Luner_IGS_500.
+
+Conclusion: These figures don't resemble each other. So, the IGS I'm using is not what Lunter et al. used to plot their figures.
+s
+* rawAR_no_analysis_hg19mm10_linear, loglog, semilog
+
+Dataset: "/bucket/.mabuya/MillerU/Zifcakova/genome_coordinates2/AR/hg19_mm10_AR_positions_in_human.bed"
+Script: "/bucket/.mabuya/MillerU/Abrar/PCS/AR/AR_plots.py"
+
+I created these plots out-of-curiosity to observe how the length distribution of these AR sequences look without implementing any 
+PCS computations on them. 
+
+
+** Inside indel_terminated, mismatch_terminated, both_mismatch_indel_terminated folders, you'll find "AR_both_lowercase_match" folder
+
+The files inside this directory were created under certain following conditions:
+
+      1. Both human repetitive (AR or lowercase) sequences and genome2 lowercase sequences were compared
+      2. Terminated on indels, mismatches, indel+mismatch for both alignments
+      3. By definition, terminated on uppercases because we are dealing with ancestral repeats (lowercases) 
+      
+** Inside indel_terminated, mismatch_terminated, both_mismatch_indel_terminated folders, you'll find "AR_only_hg_lowercase_match" folder
+
+The files inside this directory were created under certain following conditions:
+
+      1. Only human repetitive (AR or lowercase) sequences were analyszed, and genome2 lowercase sequences were ignored
+      2. Terminated on indels, mismatches, indel+mismatch for only hg alignments 
+      3. By definition, terminated on uppercases because we are dealing with ancestral repeats (lowercases) 
+      
+      
+##  Trials for LPH Fig1B ###
+***Both human and species2 lowercase comparison:***
+
+file: "/bucket/.mabuya/MillerU/Abrar/PCS/AR/indel_terminated/AR_both_lowercase_match/"
+
+LPH didn't adopt this method. In this method:
+repetitive/lowercase sequences for both hg19 and mm10 were compared
+terminated on indels and uppercases
+analogous to the indel-terminated vanilla sequence computations except that here I only dealt with the lowercases instead of uppercases
+str1 = 'ATCGCTCGGGGG--ACCCC-a--atcgtccctacc-AAATTA-atct-atctac-cct--aa'
+str2 = 'ATCGTGAGGCA----ACGGA--ACA-CAAACCCA-AC-ACCCA-ctatc-ggga-tacg-tc'
+
+output:
+tct 
+a 
+ctac 
+cct 
+aa
+
+
+***Only human indel-terminated repetitive sequences/AR/lowercases:***
+
+file: "/bucket/.mabuya/MillerU/Abrar/PCS/AR/indel_terminated/AR_only_hg_lowercase_match_LPH/"
+
+LPH adopted this method, although I wonder why mm10 sequences are needed because mm10 is not used in this computation.
+repetitive/lowercase sequences for only hg19 were analyzed 
+terminated on indels and uppercases in hg19 
+no termination for mm10 sequences until indel encountered
+str1 = 'ATCGCTCGGGGG--ACCCC-a--atcgtccctacc-AAATTA-atct-atctac-cct--aa'
+str2 = 'ATCGTGAGGCA----ACGGA--ACA-CAAACCCA-AC-ACCCA-ctatc-ggga-tacg-tc'
+
+output:
+at 
+gtccctac 
+tct 
+a 
+ctac 
+cct 
+aa
+
+
+***Only human indel-terminated repetitive sequences/AR/lowercases: (I didn't try this one yet)***
+
+file: "/bucket/.mabuya/MillerU/Abrar/PCS/AR/indel_terminated/AR_only_hg_lowercase_ignore_mm10/"
+
+Another variation could be possible, and it also might be similar to LPH Fig1B. But I don't know if this is the the right thing to do as I'm completely ignoring mm10. 
+
+str1 = 'ATCGCTCGGGGG--ACCCC-a--atcgtccctacc-AAATTA-atct-atctac-cct--aa'
+
+output:
+a
+atcgtccctacc
+atct
+atctac
+cct
+aa
+
+
+######### mismatch terminated #######
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/mismatch_terminated/AR_exact_match/"
+the exactly matched lowercase sequences of genome1 and genome2 (including indel matches)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/mismatch_terminated/AR_ga_ct/"
+g->a, c->t and exactly matched sequences of genome1 and genome2 (including indel matches)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/mismatch_terminated/AR_gc_at/"
+g->c, a->t and exactly matched sequences of genome1 and genome2 (including indel matches)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/mismatch_terminated/AR_gt_ac/"
+g->t, a->c and exactly matched sequences of genome1 and genome2 (including indel matches)
+
+
+######### both mismatch and indel terminated #######
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/both_mismatch_indel_terminated/AR_exact_match/"
+the exactly matched lowercase sequences of genome1 and genome2 (consider indel as gaps)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/both_mismatch_indel_terminated/AR_ga_ct/"
+g->a, c->t and exactly matched sequences of genome1 and genome2 (consider indel as gaps)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/both_mismatch_indel_terminated/AR_gc_at/"
+g->c, a->t and exactly matched sequences of genome1 and genome2 (consider indel as gaps)
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/both_mismatch_indel_terminated/AR_gt_ac/"
+g->t, a->c and exactly matched sequences of genome1 and genome2 (consider indel as gaps)
+
+
+#############  CMMS ################
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/CMMS_both_match_indel_terminated/"
+the exactly mismatched lowercase sequences of genome1 and genome2 (consider indel as terminator)
+
+str1='ATCGCTCGGGGG--ACCCC-a--atcgtccctacc-AAATTA-atct-atcgac-cct--aacga--'
+str2='ATCGTGAGGCA----ACGGA--ACA-CAAACCCA-AC-ACCCA-tccatc-tcga-tacg-tcga--'
+
+*Output:
+t
+at
+gac
+ct
+a
+
+
+
+"/bucket/.mabuya/MillerU/Abrar/PCS/AR/CMMS_match_terminated/"
+the exactly mismatched lowercase sequences of genome1 and genome2 (including indel mismatches)
+
+str1='ATCGCTCGGGGG--ACCCC-a--atcgtccctacc-AAATTA-atct-atcgac-cct--aacga--'
+str2='ATCGTGAGGCA----ACGGA--ACA-CAAACCCA-AC-ACCCA-tccatc-tcga-tacg-tcga--'
+
+*Output:
+a
+c
+c
+a
+t-atcgac-cct--aa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
