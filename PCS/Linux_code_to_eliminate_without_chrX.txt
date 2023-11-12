@@ -1,0 +1,8 @@
+#delete 2 or more lines after matching string
+$ sed '/chr1/,+2 d;/chr2/,+2 d;/chr3/,+2 d;/chr4/,+2 d;/chr5/,+2 d;/chr6/,+1 d;/chr7/d;/chrM/d;/chr8/d;/chr9/,+1 d;/chr10/d;/chr11/d;/chr12/d;/chr13/d;/chr14/d;/chr15/d;/chr16/d;/chr17/d;/chr18/d;/chr19/d;/chr20/d;/chr21/d;/chr22/d;/chrY/d;/chrUn/d' -i hg19_mm10_chrX_16_identical_seqs.tsv
+
+#delete the line matching a certain string
+$ sed '/chr1/d;/chr2/d;/chr3/d;/chr4/d;/chr5/d;/chr6/d;/chr7/d;/chrM/d;/chr8/d;/chr9/d;/chr10/d;/chr11/d;/chr12/d;/chr13/d;/chr14/d;/chr15/d;/chr16/d;/chr17/d;/chr18/d;/chr19/d;/chr20/d;/chr21/d;/chr22/d;/chrY/d;/chrUn/d' -i hg19_mm10_chrX_16_identical_seqs.tsv
+
+$ sed '/chr1/,+2 d;/chr2/,+2 d;/chr3/,+2 d;/chr4/,+2 d;/chr5/,+2 d;/chr6/,+2 d;/chr7/,+2 d;/chrM/,+2 d;/chr8/,+2 d;/chr9/,+2 d;/chr10/,+2 d;/chr11/,+2 d;/chr12/,+2 d;/chr13/,+2 d;/chr14/,+2 d;/chr15/,+2 d;/chr16/,+2 d;/chr17/,+2 d;/chr18/,+2 d;/chr19/,+2 d;/chr20/,+2 d;/chr21/,+2 d;/chr22/,+2 d;/chrY/,+2 d;/chrUn/,+2 d;/random/,+2 d;/hap/,+2 d;/gl/,+2 d;/GL/,+2 d' -i
+
