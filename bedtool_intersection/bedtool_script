@@ -1,0 +1,79 @@
+
+#!/bin/bash
+#SBATCH --job-name=hg19_mm10_axt_to_bed
+#SBATCH --partition=short
+#SBATCH --time=0-1
+#SBATCH --mem=5G
+#SBATCH --cpus-per-task=2
+#SBATCH --mail-user=mdabrar.jahin@oist.jp
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --output=/bucket/MillerU/Abrar/bedtool_intersection
+#SBATCH --array=0-23
+
+file_array=(/bucket/MillerU/Abrar/axtNet/hg19mm10/chr*.hg19.mm10.net.axt)
+file=${file_array[${SLURM_ARRAY_TASK_ID}]}
+
+x=$(basename -s .hg19.mm10.net.axt $file)  #strip the path of file and remove suffix 
+
+# create a temporary directory for this job and save the name
+tempdir=$(mktemp -d /flash/MillerU/axt.XXXXXX)
+
+# enter the temporary directory
+cd $tempdir
+
+#only extract lines that starts with number
+grep '^[0-9]' ${file} | awk -v OFS="\t" '$0=$0'> $tempdir/${x}_hg19_mm10_axt
+
+# copy our result back to Bucket. We use "scp" to copy the data 
+# back  as bucket isn't writable directly from the compute nodes.
+scp -r $tempdir deigo:/bucket/MillerU/Abrar/bedtool_intersection
+
+#remove temp dir
+rm -r $tempdir
+
+#replace white-space with tab and remove header with sed; contains chrX and chrY
+awk -v OFS="\t" '$0=$0' "/bucket/MillerU/Abrar/Nash_wrong_PCS/hg19-gorGor3/all/hg19_mm10_all_identical_seqs.tsv" | sed 1d > /bucket/MillerU/Abrar/bedtool_intersection/hg19_mm10_all_identical_seqs.bed
+
+
+awk '{$1=""; print $0}' all_chr_hg19_mm10_axt | awk 'BEGIN {OFS="\t"} {print $1,$2,$3,$4,$5,$6,$7,$8}'> all_chr_hg19_mm10_axt.bed  
+
+
+##################################### BEDTOOLS #################################
+"/bucket/.mabuya/MillerU/Zifcakova/genome_coordinates2/all_chr_hg19_mm10_axt2.bed"
+
+-v 	Only report those entries in A that have no overlap in B. Restricted by -f and -r.
+-f 	Minimum overlap required as a fraction of A. Default is 1E-9 (i.e. 1bp).
+-r 	Require that the fraction of overlap be reciprocal for A and B. In other words, if -f is 0.90 and -r is used, this requires that B overlap at least 90% of A and that A also overlaps at least 90% of B.
+
+ml bedtools/v2.29.2
+bedtools intersect -a PCS -b axt
+#intersect the first three lines of first file with the second file and output 
+bedtools intersect -a /bucket/MillerU/Abrar/bedtool_intersection/hg19_mm10_all_identical_seqs.bed -b "/bucket/MillerU/Zifcakova/genome_coordinates2/all_chr_hg19_mm10_axt2.bed" -v > pcs_axt_hg19_mm10_intersect
+
+#For each entry in A, report the number of hits in B while restricting to -f. Reports 0 for A entries that have no overlap with B
+bedtools intersect -a /bucket/MillerU/Abrar/bedtool_intersection/hg19_mm10_all_identical_seqs.bed -b /bucket/MillerU/Zifcakova/genome_coordinates2/all_chr_hg19_mm10_axt2.bed -c > pcs_axt_hg19_mm10_intersect_c
+
+bedtools intersect -a /bucket/MillerU/Abrar/bedtool_intersection/hg19_mm10_all_identical_seqs.bed -b /bucket/MillerU/Zifcakova/genome_coordinates2/all_chr_hg19_mm10_axt2.bed -loj > pcs_axt_hg19_mm10_intersect_loj
+
+bedtools intersect -a /bucket/MillerU/Abrar/bedtool_intersection/hg19_mm10_all_identical_seqs.bed -b /bucket/MillerU/Zifcakova/genome_coordinates2/all_chr_hg19_mm10_axt2.bed -wao > pcs_axt_hg19_mm10_intersect_wao
+
+
+#print the nth coulm if 12th column matches -1
+awk '$12=="-1" {print $0}' pcs_axt_hg19_mm10_intersect_loj > out
+
+#count the how many times -1 occured in 12th column; it means that the PCS coordinates are out of bound of axt file
+awk '$12 == "-1" {count++} END {print count}' pcs_axt_hg19_mm10_intersect_loj > pcs_axt_hg19_mm10_intersect_loj_counts_of_PCS_not_found_in_axt
+
+#number of PCS, including chrY
+168399152 hg19_mm10_all_identical_seqs1.bed
+
+#PCS without hit in axt coordinates:
+6208643; it is equal to 3.7% of all PCS coordinates
+
+>>> 168399152/100
+1683991.52
+>>> 6208643/1683991.52
+3.686861202246434
+
+#axt number of coordinates from all_chr_hg19_mm10_axt2.bed:
+1820547

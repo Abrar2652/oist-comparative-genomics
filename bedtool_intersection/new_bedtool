@@ -1,0 +1,99 @@
+bedtools intersect -loj -a chr_all_hg19_gorGor3_axt.bed -b hg19_gorGor3_all_identical_seqs.bed > pcs_axt_hg19_gorGor3_intersect_loj2
+wc -l pcs_axt_hg19_gorGor3_intersect_loj2
+
+
+The code is easy:
+
+ml bedtools/v2.29.2
+
+bedtools intersect -loj -a hg19_gorGor3_all_identical_seqs.bed -b /bucket/MillerU/Zifcakova/genome_coordinates2/chr_all_hg19_gorGor3_axt.bed > pcs_axt_hg19_gorGor3_intersect_loj1
+
+
+To create bed files, I have used:
+
+#location of NAsh wrong PCS tsv files for human and gorilla
+/bucket/MillerU/Abrar/Nash_wrong_PCS/hg19-gorGor3/all
+
+#!/bin/bash
+#SBATCH --job-name=gor_tsv_remove_header
+#SBATCH --partition=short
+#SBATCH --time=0-1
+#SBATCH --mem=5G
+#SBATCH --cpus-per-task=2
+#SBATCH --mail-user=mdabrar.jahin@oist.jp
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --output=/bucket/MillerU/Abrar/bedtool_intersection
+#SBATCH --array=0-82
+
+file_array=(/bucket/MillerU/Abrar/Nash_wrong_PCS/hg19-gorGor3/all/*.tsv)
+file=${file_array[${SLURM_ARRAY_TASK_ID}]}
+
+x=$(basename -s .tsv $file)  #strip the path of file and remove suffix
+
+# create a temporary directory for this job and save the name
+tempdir=$(mktemp -d /flash/MillerU/name.XXXXXX)
+
+# enter the temporary directory
+cd $tempdir
+
+awk -v OFS="\t" '$0=$0' ${file} | sed 1d > ${x}.bed
+
+# copy our result back to Bucket. We use "scp" to copy the data
+# back  as bucket isn't writable directly from the compute nodes.
+scp -r $tempdir deigo:/bucket/MillerU/Abrar/bedtool_intersection
+
+#remove temp dir
+rm -r $tempdir
+
+
+
+cd /bucket/MillerU/Abrar/bedtool_intersection
+cat name.*/*.bed > hg19_gorGor3_all_identical_seqs.bed
+
+#find unique entries in first column of file; find unique chromosomes of hg19 in first column
+awk -F"\t" '!_[$1]++' hg19_gorGor3_all_identical_seqs.bed > hg19_gorGor3_all_identical_seqs_chr_hg19
+
+
+#!/bin/bash
+#SBATCH --job-name=new_hg19_gorGor3_axt_to_bed
+#SBATCH --partition=short
+#SBATCH --time=0-1
+#SBATCH --mem=5G
+#SBATCH --cpus-per-task=2
+#SBATCH --mail-user=mdabrar.jahin@oist.jp
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --output=/bucket/MillerU/Abrar/bedtool_intersection
+#SBATCH --array=0-23
+
+file_array=(/bucket/MillerU/Abrar/axtNet/hg19gorGor3/chr*.hg19.gorGor3.net.axt)
+file=${file_array[${SLURM_ARRAY_TASK_ID}]}
+
+x=$(basename -s .hg19.gorGor3.net.axt $file)  #strip the path of file and remove suffix
+
+# create a temporary directory for this job and save the name
+tempdir=$(mktemp -d /flash/MillerU/axt.XXXXXX)
+
+# enter the temporary directory
+cd $tempdir
+
+grep '^[0-9]' ${file} | awk -v OFS="\t" '$0=$0'> $tempdir/${x}_hg19_gorGor3_axt
+
+# copy our result back to Bucket. We use "scp" to copy the data
+# back  as bucket isn't writable directly from the compute nodes.
+scp -r $tempdir deigo:/bucket/MillerU/Abrar/bedtool_intersection/
+
+#remove temp dir
+rm -r $tempdir
+
+cd /bucket/MillerU/Abrar/bedtool_intersection
+cat axt.*/* > chr_all_hg19_gorGor3.axt
+
+awk '{$1=""; print $0}' chr_all_hg19_gorGor3.axt | awk 'BEGIN {OFS="\t"} {print $1,$2,$3,$4,$5,$6,$7,$8}'> chr_all_hg19_gorGor3_axt.bed
+
+
+
+
+
+
+
+
