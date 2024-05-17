@@ -1,0 +1,621 @@
+#reference	pair	chrom	window_number	relative_entropy
+#hg38/gorGor6	hg38/gorGor6	1	
+1	0.05377948
+#hg38/gorGor6	hg38/gorGor6	1	
+2	0.040582958
+#hg38/gorGor6	hg38/gorGor6	1	
+3	0.044231473
+#hg38/gorGor6	hg38/gorGor6	1	
+4	0.046487052
+#hg38/gorGor6	hg38/gorGor6	1	
+5	0.056667875
+#hg38/gorGor6	hg38/gorGor6	1	
+6	0.048586111
+#hg38/gorGor6	hg38/gorGor6	1	
+7	0.049080628
+#hg38/gorGor6	hg38/gorGor6	1	
+8	0.048974929
+#hg38/gorGor6	hg38/gorGor6	1	
+9	0.052370234
+#hg38/gorGor6	hg38/gorGor6	1	
+10	0.058239635
+#hg38/gorGor6	hg38/gorGor6	1	
+11	0.041969598
+#hg38/gorGor6	hg38/gorGor6	1	
+12	0.051406672
+#hg38/gorGor6	hg38/gorGor6	1	
+13	0.208763542
+#hg38/gorGor6	hg38/gorGor6	1	
+14	3.389919612
+#hg38/gorGor6	hg38/gorGor6	1	
+15	0.079587423
+#hg38/gorGor6	hg38/gorGor6	1	
+16	0.050811459
+#hg38/gorGor6	hg38/gorGor6	1	
+17	0.04955758
+#hg38/gorGor6	hg38/gorGor6	1	
+18	0.055420283
+#hg38/gorGor6	hg38/gorGor6	1	
+19	0.046969028
+#hg38/gorGor6	hg38/gorGor6	1	
+20	0.044854689
+#hg38/gorGor6	hg38/gorGor6	1	
+21	0.044734949
+#hg38/gorGor6	hg38/gorGor6	1	
+22	0.047788255
+#hg38/gorGor6	hg38/gorGor6	1	
+23	0.042934635
+#hg38/gorGor6	hg38/gorGor6	1	
+24	0.038012127
+&
+#hg38/gorGor6	hg38/gorGor6	2	
+1	0.035040233
+#hg38/gorGor6	hg38/gorGor6	2	
+2	0.039171255
+#hg38/gorGor6	hg38/gorGor6	2	
+3	0.044009291
+#hg38/gorGor6	hg38/gorGor6	2	
+4	0.041277393
+#hg38/gorGor6	hg38/gorGor6	2	
+5	0.037587257
+#hg38/gorGor6	hg38/gorGor6	2	
+6	0.041337507
+#hg38/gorGor6	hg38/gorGor6	2	
+7	0.053231041
+#hg38/gorGor6	hg38/gorGor6	2	
+8	0.044032725
+#hg38/gorGor6	hg38/gorGor6	2	
+9	0.040233413
+#hg38/gorGor6	hg38/gorGor6	2	
+10	0.080152566
+#hg38/gorGor6	hg38/gorGor6	2	
+11	0.038127934
+#hg38/gorGor6	hg38/gorGor6	2	
+12	0.038065016
+#hg38/gorGor6	hg38/gorGor6	2	
+13	0.040524532
+#hg38/gorGor6	hg38/gorGor6	2	
+14	0.035442886
+#hg38/gorGor6	hg38/gorGor6	2	
+15	0.04365506
+#hg38/gorGor6	hg38/gorGor6	2	
+16	0.055720938
+#hg38/gorGor6	hg38/gorGor6	2	
+17	0.055545053
+#hg38/gorGor6	hg38/gorGor6	2	
+18	0.059612156
+#hg38/gorGor6	hg38/gorGor6	2	
+19	0.052854236
+#hg38/gorGor6	hg38/gorGor6	2	
+20	0.056782313
+#hg38/gorGor6	hg38/gorGor6	2	
+21	0.055237198
+#hg38/gorGor6	hg38/gorGor6	2	
+22	0.044774646
+#hg38/gorGor6	hg38/gorGor6	2	
+23	0.040146856
+#hg38/gorGor6	hg38/gorGor6	2	
+24	0.03387012
+&
+#hg38/gorGor6	hg38/gorGor6	3	
+1	0.039350088
+#hg38/gorGor6	hg38/gorGor6	3	
+2	0.046109025
+#hg38/gorGor6	hg38/gorGor6	3	
+3	0.042736895
+#hg38/gorGor6	hg38/gorGor6	3	
+4	0.048451419
+#hg38/gorGor6	hg38/gorGor6	3	
+5	0.055501904
+#hg38/gorGor6	hg38/gorGor6	3	
+6	0.051097589
+#hg38/gorGor6	hg38/gorGor6	3	
+7	0.036513444
+#hg38/gorGor6	hg38/gorGor6	3	
+8	0.037113975
+#hg38/gorGor6	hg38/gorGor6	3	
+9	0.040090861
+#hg38/gorGor6	hg38/gorGor6	3	
+10	0.066204853
+#hg38/gorGor6	hg38/gorGor6	3	
+11	0.048089907
+#hg38/gorGor6	hg38/gorGor6	3	
+12	0.055446624
+#hg38/gorGor6	hg38/gorGor6	3	
+13	0.053101917
+#hg38/gorGor6	hg38/gorGor6	3	
+14	0.051797446
+#hg38/gorGor6	hg38/gorGor6	3	
+15	0.048880431
+#hg38/gorGor6	hg38/gorGor6	3	
+16	0.052301025
+#hg38/gorGor6	hg38/gorGor6	3	
+17	0.046737364
+#hg38/gorGor6	hg38/gorGor6	3	
+18	0.044864617
+#hg38/gorGor6	hg38/gorGor6	3	
+19	0.043620332
+&
+#hg38/gorGor6	hg38/gorGor6	4	
+1	0.065118271
+#hg38/gorGor6	hg38/gorGor6	4	
+2	0.039498069
+#hg38/gorGor6	hg38/gorGor6	4	
+3	0.039904176
+#hg38/gorGor6	hg38/gorGor6	4	
+4	0.03964974
+#hg38/gorGor6	hg38/gorGor6	4	
+5	0.044303952
+#hg38/gorGor6	hg38/gorGor6	4	
+6	0.054989956
+#hg38/gorGor6	hg38/gorGor6	4	
+7	0.040121782
+#hg38/gorGor6	hg38/gorGor6	4	
+8	0.050286778
+#hg38/gorGor6	hg38/gorGor6	4	
+9	0.051146326
+#hg38/gorGor6	hg38/gorGor6	4	
+10	0.049369294
+#hg38/gorGor6	hg38/gorGor6	4	
+11	0.054284523
+#hg38/gorGor6	hg38/gorGor6	4	
+12	0.049304137
+#hg38/gorGor6	hg38/gorGor6	4	
+13	0.054527064
+#hg38/gorGor6	hg38/gorGor6	4	
+14	0.045109324
+#hg38/gorGor6	hg38/gorGor6	4	
+15	0.047406721
+#hg38/gorGor6	hg38/gorGor6	4	
+16	0.04782076
+#hg38/gorGor6	hg38/gorGor6	4	
+17	0.042086467
+#hg38/gorGor6	hg38/gorGor6	4	
+18	0.04169251
+#hg38/gorGor6	hg38/gorGor6	4	
+19	0.033633631
+&
+#hg38/gorGor6	hg38/gorGor6	5	
+1	0.035773849
+#hg38/gorGor6	hg38/gorGor6	5	
+2	0.037126619
+#hg38/gorGor6	hg38/gorGor6	5	
+3	0.039188312
+#hg38/gorGor6	hg38/gorGor6	5	
+4	0.044649132
+#hg38/gorGor6	hg38/gorGor6	5	
+5	0.079524704
+#hg38/gorGor6	hg38/gorGor6	5	
+6	0.046623174
+#hg38/gorGor6	hg38/gorGor6	5	
+7	0.05159431
+#hg38/gorGor6	hg38/gorGor6	5	
+8	0.049450586
+#hg38/gorGor6	hg38/gorGor6	5	
+9	0.052334934
+#hg38/gorGor6	hg38/gorGor6	5	
+10	0.058499119
+#hg38/gorGor6	hg38/gorGor6	5	
+11	0.047908762
+#hg38/gorGor6	hg38/gorGor6	5	
+12	0.042301024
+#hg38/gorGor6	hg38/gorGor6	5	
+13	0.047187545
+#hg38/gorGor6	hg38/gorGor6	5	
+14	0.055095762
+#hg38/gorGor6	hg38/gorGor6	5	
+15	0.050771659
+#hg38/gorGor6	hg38/gorGor6	5	
+16	0.044593749
+#hg38/gorGor6	hg38/gorGor6	5	
+17	0.039398138
+#hg38/gorGor6	hg38/gorGor6	5	
+18	0.041287258
+&
+#hg38/gorGor6	hg38/gorGor6	6	
+1	0.034226136
+#hg38/gorGor6	hg38/gorGor6	6	
+2	0.043099372
+#hg38/gorGor6	hg38/gorGor6	6	
+3	0.042930051
+#hg38/gorGor6	hg38/gorGor6	6	
+4	0.046818312
+#hg38/gorGor6	hg38/gorGor6	6	
+5	0.04336179
+#hg38/gorGor6	hg38/gorGor6	6	
+6	0.049849253
+#hg38/gorGor6	hg38/gorGor6	6	
+7	0.044166108
+#hg38/gorGor6	hg38/gorGor6	6	
+8	0.052989626
+#hg38/gorGor6	hg38/gorGor6	6	
+9	0.057116483
+#hg38/gorGor6	hg38/gorGor6	6	
+10	0.049629402
+#hg38/gorGor6	hg38/gorGor6	6	
+11	0.052188623
+#hg38/gorGor6	hg38/gorGor6	6	
+12	0.054003787
+#hg38/gorGor6	hg38/gorGor6	6	
+13	0.050131481
+#hg38/gorGor6	hg38/gorGor6	6	
+14	0.046527505
+#hg38/gorGor6	hg38/gorGor6	6	
+15	0.046822054
+#hg38/gorGor6	hg38/gorGor6	6	
+16	0.038069512
+#hg38/gorGor6	hg38/gorGor6	6	
+17	0.033484468
+&
+#hg38/gorGor6	hg38/gorGor6	7	
+1	0.052272561
+#hg38/gorGor6	hg38/gorGor6	7	
+2	0.037784181
+#hg38/gorGor6	hg38/gorGor6	7	
+3	0.043367016
+#hg38/gorGor6	hg38/gorGor6	7	
+4	0.045295432
+#hg38/gorGor6	hg38/gorGor6	7	
+5	0.044743318
+#hg38/gorGor6	hg38/gorGor6	7	
+6	0.050414318
+#hg38/gorGor6	hg38/gorGor6	7	
+7	0.082164506
+#hg38/gorGor6	hg38/gorGor6	7	
+8	0.041949126
+#hg38/gorGor6	hg38/gorGor6	7	
+9	0.043115671
+#hg38/gorGor6	hg38/gorGor6	7	
+10	0.056760327
+#hg38/gorGor6	hg38/gorGor6	7	
+11	0.04447046
+#hg38/gorGor6	hg38/gorGor6	7	
+12	0.051676318
+#hg38/gorGor6	hg38/gorGor6	7	
+13	0.048624824
+#hg38/gorGor6	hg38/gorGor6	7	
+14	0.043892876
+#hg38/gorGor6	hg38/gorGor6	7	
+15	0.037239397
+&
+#hg38/gorGor6	hg38/gorGor6	8	
+1	0.136637823
+#hg38/gorGor6	hg38/gorGor6	8	
+2	0.056577952
+#hg38/gorGor6	hg38/gorGor6	8	
+3	0.037445172
+#hg38/gorGor6	hg38/gorGor6	8	
+4	0.047940919
+#hg38/gorGor6	hg38/gorGor6	8	
+5	0.061338777
+#hg38/gorGor6	hg38/gorGor6	8	
+6	0.043005105
+#hg38/gorGor6	hg38/gorGor6	8	
+7	0.04917831
+#hg38/gorGor6	hg38/gorGor6	8	
+8	0.049399615
+#hg38/gorGor6	hg38/gorGor6	8	
+9	0.044649945
+#hg38/gorGor6	hg38/gorGor6	8	
+10	0.055702337
+#hg38/gorGor6	hg38/gorGor6	8	
+11	0.05154625
+#hg38/gorGor6	hg38/gorGor6	8	
+12	0.045237885
+#hg38/gorGor6	hg38/gorGor6	8	
+13	0.042284088
+#hg38/gorGor6	hg38/gorGor6	8	
+14	0.037572475
+&
+#hg38/gorGor6	hg38/gorGor6	9	
+1	0.037013624
+#hg38/gorGor6	hg38/gorGor6	9	
+2	0.040180143
+#hg38/gorGor6	hg38/gorGor6	9	
+3	0.037977352
+#hg38/gorGor6	hg38/gorGor6	9	
+4	0.041655269
+#hg38/gorGor6	hg38/gorGor6	9	
+5	0.15605422
+#hg38/gorGor6	hg38/gorGor6	9	
+6	3.389919612
+#hg38/gorGor6	hg38/gorGor6	9	
+7	0.076579864
+#hg38/gorGor6	hg38/gorGor6	9	
+8	0.046275415
+#hg38/gorGor6	hg38/gorGor6	9	
+9	0.042294349
+#hg38/gorGor6	hg38/gorGor6	9	
+10	0.049051422
+#hg38/gorGor6	hg38/gorGor6	9	
+11	0.043835561
+#hg38/gorGor6	hg38/gorGor6	9	
+12	0.042528642
+#hg38/gorGor6	hg38/gorGor6	9	
+13	0.045041761
+&
+#hg38/gorGor6	hg38/gorGor6	10	
+1	0.036211687
+#hg38/gorGor6	hg38/gorGor6	10	
+2	0.035987912
+#hg38/gorGor6	hg38/gorGor6	10	
+3	0.038480112
+#hg38/gorGor6	hg38/gorGor6	10	
+4	0.044686692
+#hg38/gorGor6	hg38/gorGor6	10	
+5	0.04832608
+#hg38/gorGor6	hg38/gorGor6	10	
+6	0.042191763
+#hg38/gorGor6	hg38/gorGor6	10	
+7	0.04955262
+#hg38/gorGor6	hg38/gorGor6	10	
+8	0.045605167
+#hg38/gorGor6	hg38/gorGor6	10	
+9	0.048272171
+#hg38/gorGor6	hg38/gorGor6	10	
+10	0.054859959
+#hg38/gorGor6	hg38/gorGor6	10	
+11	0.041509082
+#hg38/gorGor6	hg38/gorGor6	10	
+12	0.044376743
+#hg38/gorGor6	hg38/gorGor6	10	
+13	0.032821251
+&
+#hg38/gorGor6	hg38/gorGor6	11	
+1	0.038385363
+#hg38/gorGor6	hg38/gorGor6	11	
+2	0.048711473
+#hg38/gorGor6	hg38/gorGor6	11	
+3	0.041944048
+#hg38/gorGor6	hg38/gorGor6	11	
+4	0.046090933
+#hg38/gorGor6	hg38/gorGor6	11	
+5	0.038472062
+#hg38/gorGor6	hg38/gorGor6	11	
+6	0.079323534
+#hg38/gorGor6	hg38/gorGor6	11	
+7	0.039828639
+#hg38/gorGor6	hg38/gorGor6	11	
+8	0.041792404
+#hg38/gorGor6	hg38/gorGor6	11	
+9	0.040437125
+#hg38/gorGor6	hg38/gorGor6	11	
+10	0.042490866
+#hg38/gorGor6	hg38/gorGor6	11	
+11	0.046569937
+#hg38/gorGor6	hg38/gorGor6	11	
+12	0.042660135
+#hg38/gorGor6	hg38/gorGor6	11	
+13	0.039547378
+&
+#hg38/gorGor6	hg38/gorGor6	12	
+1	0.037903036
+#hg38/gorGor6	hg38/gorGor6	12	
+2	0.041811649
+#hg38/gorGor6	hg38/gorGor6	12	
+3	0.045913922
+#hg38/gorGor6	hg38/gorGor6	12	
+4	0.06593819
+#hg38/gorGor6	hg38/gorGor6	12	
+5	0.052707143
+#hg38/gorGor6	hg38/gorGor6	12	
+6	0.055844616
+#hg38/gorGor6	hg38/gorGor6	12	
+7	0.04850404
+#hg38/gorGor6	hg38/gorGor6	12	
+8	0.047855976
+#hg38/gorGor6	hg38/gorGor6	12	
+9	0.047551197
+#hg38/gorGor6	hg38/gorGor6	12	
+10	0.050324459
+#hg38/gorGor6	hg38/gorGor6	12	
+11	0.046488607
+#hg38/gorGor6	hg38/gorGor6	12	
+12	0.04352181
+#hg38/gorGor6	hg38/gorGor6	12	
+13	0.039696084
+&
+#hg38/gorGor6	hg38/gorGor6	13	
+1	3.389919612
+#hg38/gorGor6	hg38/gorGor6	13	
+2	0.199666365
+#hg38/gorGor6	hg38/gorGor6	13	
+3	0.038090127
+#hg38/gorGor6	hg38/gorGor6	13	
+4	0.044865618
+#hg38/gorGor6	hg38/gorGor6	13	
+5	0.049823863
+#hg38/gorGor6	hg38/gorGor6	13	
+6	0.049337168
+#hg38/gorGor6	hg38/gorGor6	13	
+7	0.042228354
+#hg38/gorGor6	hg38/gorGor6	13	
+8	0.04434238
+#hg38/gorGor6	hg38/gorGor6	13	
+9	0.041298851
+#hg38/gorGor6	hg38/gorGor6	13	
+10	0.040989031
+#hg38/gorGor6	hg38/gorGor6	13	
+11	0.034926992
+&
+#hg38/gorGor6	hg38/gorGor6	14	
+1	3.389919612
+#hg38/gorGor6	hg38/gorGor6	14	
+2	0.245018119
+#hg38/gorGor6	hg38/gorGor6	14	
+3	0.043180218
+#hg38/gorGor6	hg38/gorGor6	14	
+4	0.052293433
+#hg38/gorGor6	hg38/gorGor6	14	
+5	0.049021791
+#hg38/gorGor6	hg38/gorGor6	14	
+6	0.052257498
+#hg38/gorGor6	hg38/gorGor6	14	
+7	0.054570165
+#hg38/gorGor6	hg38/gorGor6	14	
+8	0.045428542
+#hg38/gorGor6	hg38/gorGor6	14	
+9	0.041271357
+#hg38/gorGor6	hg38/gorGor6	14	
+10	0.037773064
+&
+#hg38/gorGor6	hg38/gorGor6	15	
+1	3.389919612
+#hg38/gorGor6	hg38/gorGor6	15	
+2	0.93133135
+#hg38/gorGor6	hg38/gorGor6	15	
+3	0.09560876
+#hg38/gorGor6	hg38/gorGor6	15	
+4	0.036740407
+#hg38/gorGor6	hg38/gorGor6	15	
+5	0.050018445
+#hg38/gorGor6	hg38/gorGor6	15	
+6	0.041902887
+#hg38/gorGor6	hg38/gorGor6	15	
+7	0.04356694
+#hg38/gorGor6	hg38/gorGor6	15	
+8	0.042396933
+#hg38/gorGor6	hg38/gorGor6	15	
+9	0.036996157
+#hg38/gorGor6	hg38/gorGor6	15	
+10	0.035155651
+&
+#hg38/gorGor6	hg38/gorGor6	16	
+1	0.056232478
+#hg38/gorGor6	hg38/gorGor6	16	
+2	0.046017088
+#hg38/gorGor6	hg38/gorGor6	16	
+3	0.044061388
+#hg38/gorGor6	hg38/gorGor6	16	
+4	0.161202643
+#hg38/gorGor6	hg38/gorGor6	16	
+5	0.124129321
+#hg38/gorGor6	hg38/gorGor6	16	
+6	0.040526235
+#hg38/gorGor6	hg38/gorGor6	16	
+7	0.043030932
+#hg38/gorGor6	hg38/gorGor6	16	
+8	0.035736151
+#hg38/gorGor6	hg38/gorGor6	16	
+9	0.059680803
+&
+#hg38/gorGor6	hg38/gorGor6	17	
+1	0.042707055
+#hg38/gorGor6	hg38/gorGor6	17	
+2	0.044200804
+#hg38/gorGor6	hg38/gorGor6	17	
+3	0.075946501
+#hg38/gorGor6	hg38/gorGor6	17	
+4	0.049022948
+#hg38/gorGor6	hg38/gorGor6	17	
+5	0.061288217
+#hg38/gorGor6	hg38/gorGor6	17	
+6	0.052297667
+#hg38/gorGor6	hg38/gorGor6	17	
+7	0.046980325
+#hg38/gorGor6	hg38/gorGor6	17	
+8	0.033918749
+&
+#hg38/gorGor6	hg38/gorGor6	18	
+1	0.039923021
+#hg38/gorGor6	hg38/gorGor6	18	
+2	0.066135312
+#hg38/gorGor6	hg38/gorGor6	18	
+3	0.053309808
+#hg38/gorGor6	hg38/gorGor6	18	
+4	0.051753939
+#hg38/gorGor6	hg38/gorGor6	18	
+5	0.041885738
+#hg38/gorGor6	hg38/gorGor6	18	
+6	0.040540345
+#hg38/gorGor6	hg38/gorGor6	18	
+7	0.037078074
+#hg38/gorGor6	hg38/gorGor6	18	
+8	0.033446803
+&
+#hg38/gorGor6	hg38/gorGor6	19	
+1	0.062240588
+#hg38/gorGor6	hg38/gorGor6	19	
+2	0.047713695
+#hg38/gorGor6	hg38/gorGor6	19	
+3	0.14350399
+#hg38/gorGor6	hg38/gorGor6	19	
+4	0.043012668
+#hg38/gorGor6	hg38/gorGor6	19	
+5	0.055836258
+&
+#hg38/gorGor6	hg38/gorGor6	20	
+1	0.040957794
+#hg38/gorGor6	hg38/gorGor6	20	
+2	0.042729616
+#hg38/gorGor6	hg38/gorGor6	20	
+3	0.058988858
+#hg38/gorGor6	hg38/gorGor6	20	
+4	0.04562237
+#hg38/gorGor6	hg38/gorGor6	20	
+5	0.04168206
+#hg38/gorGor6	hg38/gorGor6	20	
+6	0.03766007
+&
+#hg38/gorGor6	hg38/gorGor6	21	
+1	0.286558053
+#hg38/gorGor6	hg38/gorGor6	21	
+2	0.047764181
+#hg38/gorGor6	hg38/gorGor6	21	
+3	0.036878515
+#hg38/gorGor6	hg38/gorGor6	21	
+4	0.039665749
+&
+#hg38/gorGor6	hg38/gorGor6	22	
+1	3.389919612
+#hg38/gorGor6	hg38/gorGor6	22	
+2	0.126718445
+#hg38/gorGor6	hg38/gorGor6	22	
+3	0.037939016
+#hg38/gorGor6	hg38/gorGor6	22	
+4	0.039312605
+#hg38/gorGor6	hg38/gorGor6	22	
+5	0.043580309
+&
+#hg38/gorGor6	hg38/gorGor6	X	
+1	0.045028181
+#hg38/gorGor6	hg38/gorGor6	X	
+2	0.078879819
+#hg38/gorGor6	hg38/gorGor6	X	
+3	0.065189062
+#hg38/gorGor6	hg38/gorGor6	X	
+4	0.05135699
+#hg38/gorGor6	hg38/gorGor6	X	
+5	0.073470348
+#hg38/gorGor6	hg38/gorGor6	X	
+6	0.108234206
+#hg38/gorGor6	hg38/gorGor6	X	
+7	0.113648052
+#hg38/gorGor6	hg38/gorGor6	X	
+8	0.092652881
+#hg38/gorGor6	hg38/gorGor6	X	
+9	0.076270359
+#hg38/gorGor6	hg38/gorGor6	X	
+10	0.077194179
+#hg38/gorGor6	hg38/gorGor6	X	
+11	0.074718163
+#hg38/gorGor6	hg38/gorGor6	X	
+12	0.068845815
+#hg38/gorGor6	hg38/gorGor6	X	
+13	0.078521237
+#hg38/gorGor6	hg38/gorGor6	X	
+14	0.069359484
+#hg38/gorGor6	hg38/gorGor6	X	
+15	0.053591246
+&
+#hg38/gorGor6	hg38/gorGor6	Y	
+1	0.536657292
+#hg38/gorGor6	hg38/gorGor6	Y	
+2	1.431774187
+#hg38/gorGor6	hg38/gorGor6	Y	
+3	1.078723217
+#hg38/gorGor6	hg38/gorGor6	Y	
+4	3.389919612
+#hg38/gorGor6	hg38/gorGor6	Y	
+5	3.389919612
+&
