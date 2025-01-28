@@ -1,0 +1,101 @@
+#### don't export or override PATH before calling tmux
+tmux
+tmux ls
+tmux a -t0
+tmux detach -s0
+
+cd /flash/MillerU/chr.qRcHl8/
+#!/bin/bash
+#SBATCH --job-name=python_Kurtosis
+#SBATCH --partition=short
+#SBATCH --time=06:00:00
+#SBATCH --mem=100G
+#SBATCH --cpus-per-task=40
+#SBATCH --mail-user=mdabrar.jahin@oist.jp
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --output=/bucket/MillerU/Abrar/PCS/
+ml python/3.10.2
+srun -p compute -t 10:00:00 --mem=300G -c 40 -n 1 --x11 --pty python3 
+
+tempdir=$(mktemp -d /flash/MillerU/chr.XXXXXX)
+cd $tempdir
+
+srun -p compute -t 10:00:00 --mem=300G -c 40 -n 1 --x11 --pty python3 "/bucket/.mabuya/MillerU/Abrar/PCS/AR/mismatch_terminated/AR_exact_match/AR_terminate_mismatch.py" $tempdir 
+srun -p compute -t 7-24:00:00 --mem=50G -c 20 -n 1 --x11 --pty python3 "/bucket/.mabuya/MillerU/Abrar/PCS/temp2.py"
+srun -p compute -t 2-00:00:00 --mem=300G -c 40 -n 1 --x11 --pty python3 "/bucket/.mabuya/MillerU/Abrar/PCS/normalized_sliding_pcs_plots.py" "/flash/MillerU/chr/" 
+srun -p compute -t 2-00:00:00 --mem=300G -c 40 -n 1 --x11 --pty python3 "/bucket/.mabuya/MillerU/Abrar/PCS/temp2.py" "/flash/MillerU/chr/"
+srun -p compute -t 10:00:00 --mem=100G -c 40 -n 1 --x11 --pty python3 "/bucket/.mabuya/MillerU/Abrar/PCS/primate_common_pcs_intersection.py"
+
+
+squeue
+scancel JOBID
+#account limitations
+sacctmgr show user $USER withassoc format=account,user,partition,MaxWallDurationPerJob
+
+tail -f nohup.out
+kill -9 PID
+
+srun -p compute -t 24:00:00 --mem=500G -c 120 -n 1 --x11 --pty python "/bucket/.mabuya/MillerU/Abrar/PCS/filter_exons_repeats_individual.py"
+
+srun -p compute -t 01 --mem=1G -c 1 -n 1 --x11 --pty python "/bucket/.mabuya/MillerU/Abrar/test.py" $tempdir
+
+# files will be saved in the output location
+python "/bucket/.mabuya/MillerU/Abrar/PCS/PCS_calculation.py"
+/bucket/MillerU/Abrar
+
+
+
+# create a temporary directory for this job and save the name
+
+tempdir=$(mktemp -d /flash/MillerU/pcs.XXXXXX)
+
+
+# enter the temporary directory
+
+cd $tempdir
+
+# copy our result back to Bucket. We use "scp" to copy the data 
+
+# back  as bucket isn't writable directly from the compute nodes.
+
+scp -r $tempdir deigo:/bucket/.mabuya/MillerU/Abrar/PCS/hg38-gorGor6/50kb_normalized_sliding/
+
+
+# Clean up by removing our temporary directory
+
+rm -r $tempdir
+
+
+
+
+
+
+ml bioinfo-ugrp-modules
+
+ml DebianMed/11.1
+
+ml singularity/3.5.2
+
+ml lastz/1.04.03-4
+
+ml R/4.0.4 
+
+ml python/3.7.3
+
+Rscript --vanilla /bucket/.mabuya/MillerU/Abrar/Nash_script/binned_quantile_kurtosis_genome_ave.R $tempdir 
+#<E2><80><94>vanilla means to run without saving or restoring anything in the process
+python /bucket/.mabuya/MillerU/Abrar/PCS/Human-Mouse_PCS_All_files_merged.py $tempdir
+
+
+
+
+
+Copy any file
+$scp /path/in/local/pc your-name@deigo:/place/on/cluster
+
+
+
+
+
+////All bucket files are saved at the location: D:\Research\OIST\MobaXterm root\slash\RemoteFiles\
+

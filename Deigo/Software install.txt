@@ -1,0 +1,95 @@
+$ cd /apps/unit/MillerU/R/4.1.2
+####################
+SYNGATES52!!fuck
+cd /bucket/MillerU/Abrar/PCS/AR/
+export PYTHONPATH="/hpcshare/appsunit/MillerU/Python/3.10.1/lib/python3.10/site-packages/:$PYTHONPATH"
+export PATH="/hpcshare/appsunit/MillerU/Python/3.10.1/bin:$PATH"
+python3.10 "/bucket/.mabuya/MillerU/Abrar/PCS/normalized_pcs_plots.py"
+python3.10 "/bucket/.mabuya/MillerU/Abrar/PCS/AR/AR_plots.py"
+
+download tar file
+tar xvzf setuptools-0.6c11.tar.gz
+cd setuptools-0.6c11
+python3.10 setup.py install # specify the path to the python you installed above
+
+RUN script::::
+cd /bucket/.mabuya/MillerU/Abrar/PCS/hg19-mm10/
+python3.10 Human-Mouse_PCS_All_files_merged_2009.py
+
+######################
+Install python packages without starting python in the Bash
+
+install tar file from https://cran.r-project.org/sources.html
+
+$ tar -xf R-4.1.2.tar.gz
+$ cd R-4.1.2/
+$ ./configure
+$ make
+$ make check #checks all packages whether it runs successfully or not
+
+Install packages
+$ echo $PATH
+$ export PATH="/hpcshare/appsunit/MillerU/R/4.1.2/R-4.1.2/bin:$PATH"
+$ module load R
+$ export PATH="/hpcshare/appsunit/MillerU/R/3.4.2/R-3.4.2/bin:$PATH"
+R
+
+Hmisc:
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/Hmisc/Hmisc_4.0-3.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+
+My directory: 
+/bucket/MillerU/Abrar/
+
+if grep 46466407 "$File"; then
+  Some Actions # SomeString was found
+fi
+
+
+Worked
+$ R
+$ setwd("/")
+export PATH="/hpcshare/appsunit/MillerU/R/4.1.2/R-4.1.2/bin:$PATH"
+R
+
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/temp_without_exons.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/vanilla_threshold_quantile_kurtosis.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/sliding_pcs.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/sliding_coordinates.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/vanilla_threshold_quantile_kurtosis_grbs.R")
+source("/bucket/.mabuya/MillerU/Abrar/Nash_wrong_PCS/get_identical_seq_locations.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/tiled_pcs.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/tiled_coordinates.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/tiled_chrom.R")
+source("/bucket/.mabuya/MillerU/Abrar/R_scripts/pcs_within_windows.R")
+
+
+$ install.packages("remotes")
+create personal library at /apps/unit/MillerU/.modulefiles/R/4.1.2/
+
+
+
+####################
+CNEFinder
+
+export PATH="/hpcshare/appsunit/MillerU/CNEFinder:$PATH"
+
+
+nohup python3.10 "/bucket/.mabuya/MillerU/Abrar/PCS/pcs_extension.py" &
+tail -f nohup.out
+kill -15 -1 16000
+ps ax|grep nohup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
