@@ -56,7 +56,7 @@ cd $tempdir
 
 # copy our result back to Bucket. We use "scp" to copy the data 
 
-# back  as bucket isn't writable directly from the compute nodes.
+# back as bucket isn't writable directly from the compute nodes.
 
 scp -r $tempdir deigo:/bucket/.mabuya/MillerU/Abrar/PCS/hg38-gorGor6/50kb_normalized_sliding/
 
