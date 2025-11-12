@@ -1,16 +1,16 @@
-\# OIST Comparative Genomics Research Project
+# OIST Comparative Genomics Research Project
 
-\## Evolutionary Dynamics of Strongly Conserved Sequences in Vertebrates and Insects
+## Evolutionary Dynamics of Strongly Conserved Sequences in Vertebrates and Insects
 
 
 
-\*\*Research Period:\*\* October 2021 - March 2025 (3.6 years)  
+**Research Period:** October 2021 - March 2025 (3.6 years)  
 
-\*\*Institution:\*\* Okinawa Institute of Science and Technology Graduate University (OIST)  
+**Institution:** Okinawa Institute of Science and Technology Graduate University (OIST)  
 
-\*\*Laboratory:\*\* Physics and Biology Unit (Miller Unit)  
+**Laboratory:** Physics and Biology Unit (Miller Unit)  
 
-\*\*GitHub Repository:\*\* https://github.com/Abrar2652/oist-comparative-genomics
+**GitHub Repository:** https://github.com/Abrar2652/oist-comparative-genomics
 
 
 
@@ -18,19 +18,19 @@
 
 
 
-\## 🔬 Project Overview
+## 🔬 Project Overview
 
 
 
-This repository contains the computational pipeline, analysis scripts, and results from 3.6 years of comparative genomics research conducted at OIST's Physics and Biology Unit. The project focuses on identifying and characterizing \*\*perfectly conserved sequences\*\* and analyzing the \*\*evolutionary dynamics of strongly conserved genomic regions\*\* across vertebrates and insects.
+This repository contains the computational pipeline, analysis scripts, and results from 3.6 years of comparative genomics research conducted at OIST's Physics and Biology Unit. The project focuses on identifying and characterizing **perfectly conserved sequences** and analyzing the **evolutionary dynamics of strongly conserved genomic regions** across vertebrates and insects.
 
 
 
-\### Research Objectives
+### Research Objectives
 
 
 
-1\. \*\*Identify Perfectly Conserved Sequences (PCS)\*\*
+1. **Identify Perfectly Conserved Sequences (PCS)**
 
 &nbsp;  - Detect genomic regions with 100% sequence identity across species
 
@@ -40,7 +40,7 @@ This repository contains the computational pipeline, analysis scripts, and resul
 
 
 
-2\. \*\*Analyze Evolutionary Dynamics\*\*
+2. **Analyze Evolutionary Dynamics**
 
 &nbsp;  - Investigate purifying selection mechanisms
 
@@ -50,7 +50,7 @@ This repository contains the computational pipeline, analysis scripts, and resul
 
 
 
-3\. \*\*Comparative Genomics\*\*
+3. **Comparative Genomics**
 
 &nbsp;  - Multi-species genome alignment
 
@@ -60,7 +60,7 @@ This repository contains the computational pipeline, analysis scripts, and resul
 
 
 
-4\. \*\*Computational Methods Development\*\*
+4. **Computational Methods Development**
 
 &nbsp;  - Efficient algorithms for conservation detection
 
@@ -70,35 +70,35 @@ This repository contains the computational pipeline, analysis scripts, and resul
 
 
 
-\### Key Research Questions
+### Key Research Questions
 
 
 
-\- \*\*Q1:\*\* What are the characteristics of perfectly conserved sequences in the human genome?
+- **Q1:** What are the characteristics of perfectly conserved sequences in the human genome?
 
-\- \*\*Q2:\*\* How do conservation patterns differ between vertebrates and insects?
+- **Q2:** How do conservation patterns differ between vertebrates and insects?
 
-\- \*\*Q3:\*\* What functional roles do these conserved sequences play?
+- **Q3:** What functional roles do these conserved sequences play?
 
-\- \*\*Q4:\*\* What evolutionary pressures maintain perfect conservation?
+- **Q4:** What evolutionary pressures maintain perfect conservation?
 
-\- \*\*Q5:\*\* Can we predict functional importance based on conservation patterns?
+- **Q5:** Can we predict functional importance based on conservation patterns?
 
 
 
-\### Significance
+### Significance
 
 
 
 Understanding perfectly conserved sequences provides insights into:
 
-\- \*\*Functional Genomics:\*\* Essential regulatory elements and genes
+- **Functional Genomics:** Essential regulatory elements and genes
 
-\- \*\*Evolutionary Biology:\*\* Mechanisms of sequence conservation
+- **Evolutionary Biology:** Mechanisms of sequence conservation
 
-\- \*\*Medical Genomics:\*\* Identification of disease-associated variants
+- **Medical Genomics:** Identification of disease-associated variants
 
-\- \*\*Comparative Biology:\*\* Universal vs. lineage-specific functional elements
+- **Comparative Biology:** Universal vs. lineage-specific functional elements
 
 
 
@@ -106,33 +106,33 @@ Understanding perfectly conserved sequences provides insights into:
 
 
 
-\## 👥 Research Team
+## 👥 Research Team
 
 
 
-\### Principal Investigator
+### Principal Investigator
 
 
 
-\*\*Prof. Jonathan Miller\*\*
+**Prof. Jonathan Miller**
 
-\- Position: Professor, Physics and Biology Unit (Miller Unit)
+- Position: Professor, Physics and Biology Unit (Miller Unit)
 
-\- Education: PhD in Biology (Cambridge), PhD in Physics (Caltech)
+- Education: PhD in Biology (Cambridge), PhD in Physics (Caltech)
 
-\- Laboratory: \[Miller Unit, OIST](https://groups.oist.jp/pbu/jonathan-miller)
+- Laboratory: [Miller Unit, OIST](https://groups.oist.jp/pbu/jonathan-miller)
 
-\- Expertise: Biophysics, Evolutionary Biology, Genomics
-
-
-
-\### Research Student
+- Expertise: Biophysics, Evolutionary Biology, Genomics
 
 
 
-\*\*Md Abrar Jahin\*\*
+### Research Student
 
-\- Positions at OIST:
+
+
+**Md Abrar Jahin**
+
+- Positions at OIST:
 
 &nbsp; - Research Intern (RI): October 2021 - December 2022
 
@@ -140,97 +140,25 @@ Understanding perfectly conserved sequences provides insights into:
 
 &nbsp; - Visiting Researcher (VR): April 2024 - March 2025
 
-\- Current Affiliation: CS PhD Student, USC Viterbi School of Engineering
+- Current Affiliation: CS PhD Student, USC Viterbi School of Engineering
 
-\- Contact: jahin@usc.edu; jahin@isi.edu | \[Website](https://abrar2652.github.io/) | \[GitHub](https://github.com/Abrar2652)
+- Contact: jahin@usc.edu; jahin@isi.edu | [Website](https://abrar2652.github.io/) | [GitHub](https://github.com/Abrar2652)
 
-\- ORCID: \[0000-0002-1623-3859](https://orcid.org/0000-0002-1623-3859)
-
-
-
-\### Collaborators
+- ORCID: [0000-0002-1623-3859](https://orcid.org/0000-0002-1623-3859)
 
 
 
-\- \*\*Dr. Lucia Zifcakova\*\* - Evolutionary Genomics
-
-\- \*\*Dr. Sarah Biller\*\* - Molecular Biology
-
-\- \*\*Dr. Zdenek Lajbner\*\* - Bioinformatics
-
-\- \*\*Dr. Ran Pnini\*\* - Computational Biology
+### Collaborators
 
 
 
----
+- **Dr. Lucia Zifcakova** - Evolutionary Genomics
 
+- **Dr. Sarah Biller** - Molecular Biology
 
+- **Dr. Zdenek Lajbner** - Bioinformatics
 
-\## 🧬 Scientific Background
-
-
-
-\### Perfectly Conserved Sequences
-
-
-
-\*\*Definition:\*\* Genomic regions showing 100% sequence identity across evolutionarily distant species, indicating extreme selective pressure.
-
-
-
-\*\*Characteristics:\*\*
-
-\- Length typically 15-200 base pairs
-
-\- Often located in non-coding regulatory regions
-
-\- Associated with developmental genes and transcription factors
-
-\- Higher density near genes involved in fundamental biological processes
-
-
-
-\*\*Biological Significance:\*\*
-
-\- Regulatory elements (enhancers, promoters)
-
-\- microRNA binding sites
-
-\- Structural RNA elements
-
-\- Protein coding sequences under strong constraint
-
-\- DNA replication origins
-
-\- Chromatin organization elements
-
-
-
-\### Evolutionary Context
-
-
-
-\*\*Purifying Selection:\*\*
-
-\- Negative selection removing deleterious mutations
-
-\- Intensity proportional to functional importance
-
-\- Detectible through comparative genomics
-
-
-
-\*\*Conservation Metrics:\*\*
-
-\- \*\*Identity:\*\* Percentage of identical nucleotides
-
-\- \*\*PhyloP scores:\*\* Evolutionary conservation probability
-
-\- \*\*PhastCons:\*\* Hidden Markov Model-based conservation
-
-\- \*\*GERP scores:\*\* Genomic Evolutionary Rate Profiling
-
-
+- **Dr. Ran Pnini** - Computational Biology
 
 
 
@@ -238,7 +166,79 @@ Understanding perfectly conserved sequences provides insights into:
 
 
 
-\## 📝 Citation
+## 🧬 Scientific Background
+
+
+
+### Perfectly Conserved Sequences
+
+
+
+**Definition:** Genomic regions showing 100% sequence identity across evolutionarily distant species, indicating extreme selective pressure.
+
+
+
+**Characteristics:**
+
+- Length typically 15-200 base pairs
+
+- Often located in non-coding regulatory regions
+
+- Associated with developmental genes and transcription factors
+
+- Higher density near genes involved in fundamental biological processes
+
+
+
+**Biological Significance:**
+
+- Regulatory elements (enhancers, promoters)
+
+- microRNA binding sites
+
+- Structural RNA elements
+
+- Protein coding sequences under strong constraint
+
+- DNA replication origins
+
+- Chromatin organization elements
+
+
+
+### Evolutionary Context
+
+
+
+**Purifying Selection:**
+
+- Negative selection removing deleterious mutations
+
+- Intensity proportional to functional importance
+
+- Detectible through comparative genomics
+
+
+
+**Conservation Metrics:**
+
+- **Identity:** Percentage of identical nucleotides
+
+- **PhyloP scores:** Evolutionary conservation probability
+
+- **PhastCons:** Hidden Markov Model-based conservation
+
+- **GERP scores:** Genomic Evolutionary Rate Profiling
+
+
+
+
+
+---
+
+
+
+## 📝 Citation
 
 
 
@@ -246,7 +246,7 @@ If you use this code or data in your research, please cite:
 
 
 
-\### Software Citation
+### Software Citation
 
 
 
@@ -278,61 +278,61 @@ If you use this code or data in your research, please cite:
 
 
 
-\## 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 
 
-\### Funding
+### Funding
 
 
 
 This research was supported by:
 
-\- \*\*Okinawa Institute of Science and Technology Graduate University (OIST)\*\*
+- **Okinawa Institute of Science and Technology Graduate University (OIST)**
 
-\- Research Intern Fellowship (October 2021 - December 2022)
+- Research Intern Fellowship (October 2021 - December 2022)
 
-\- Visiting Research Student Fellowship (January 2023 - March 2024)
+- Visiting Research Student Fellowship (January 2023 - March 2024)
 
-\- Visiting Researcher support (April 2024 - March 2025)
-
-
-
-\### Collaborators \& Supervisors
+- Visiting Researcher support (April 2024 - March 2025)
 
 
 
-\*\*Primary Supervisor:\*\*
-
-\- Prof. Jonathan Miller (OIST Physics and Biology Unit)
+### Collaborators & Supervisors
 
 
 
-\*\*Co-investigators:\*\*
+**Primary Supervisor:**
 
-\- Dr. Lucia Zifcakova
-
-\- Dr. Sarah Biller
-
-\- Dr. Zdenek Lajbner
-
-\- Dr. Ran Pnini
+- Prof. Jonathan Miller (OIST Physics and Biology Unit)
 
 
 
-\### Resources
+**Co-investigators:**
+
+- Dr. Lucia Zifcakova
+
+- Dr. Sarah Biller
+
+- Dr. Zdenek Lajbner
+
+- Dr. Ran Pnini
 
 
 
-\- \*\*OIST Computational Resources:\*\* Deigo HPC cluster
-
-\- \*\*Data Sources:\*\* UCSC Genome Browser, Ensembl, NCBI
-
-\- \*\*Software:\*\* MUMMER, LASTZ, BEDTools
+### Resources
 
 
 
-\### Community
+- **OIST Computational Resources:** Deigo HPC cluster
+
+- **Data Sources:** UCSC Genome Browser, Ensembl, NCBI
+
+- **Software:** MUMMER, LASTZ, BEDTools
+
+
+
+### Community
 
 
 
@@ -344,53 +344,53 @@ Thank you to the OIST community and the Miller Unit for their support and valuab
 
 
 
-\## Contact
+## Contact
 
 
 
-\### Primary Contact
+### Primary Contact
 
 
 
-\*\*Md Abrar Jahin\*\*
+**Md Abrar Jahin**
 
-\- Email: jahin@usc.edu
+- Email: jahin@usc.edu
 
-\- Website: https://abrar2652.github.io/
+- Website: https://abrar2652.github.io/
 
-\- GitHub: @Abrar2652
+- GitHub: @Abrar2652
 
-\- ORCID: \[0000-0002-1623-3859](https://orcid.org/0000-0002-1623-3859)
+- ORCID: [0000-0002-1623-3859](https://orcid.org/0000-0002-1623-3859)
 
-\- Google Scholar: \[Profile](https://scholar.google.com/citations?user=VKKO-zAAAAAJ\&hl=en)
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=VKKO-zAAAAAJ&hl=en)
 
-\- ResearchGate: \[Profile](https://www.researchgate.net/profile/Md-Abrar-Jahin-2)
-
-
-
-\### Laboratory
+- ResearchGate: [Profile](https://www.researchgate.net/profile/Md-Abrar-Jahin-2)
 
 
 
-\*\*Miller Unit - Physics and Biology Unit\*\*
-
-\- PI: Prof. Jonathan Miller
-
-\- Lab Website: https://groups.oist.jp/pbu
-
-\- Institution: Okinawa Institute of Science and Technology Graduate University (OIST)
-
-\- Location: 1919-1 Tancha, Onna-son, Okinawa 904-0495, Japan
+### Laboratory
 
 
 
-\### Issue Reporting
+**Miller Unit - Physics and Biology Unit**
+
+- PI: Prof. Jonathan Miller
+
+- Lab Website: https://groups.oist.jp/pbu
+
+- Institution: Okinawa Institute of Science and Technology Graduate University (OIST)
+
+- Location: 1919-1 Tancha, Onna-son, Okinawa 904-0495, Japan
+
+
+
+### Issue Reporting
 
 
 
 For bug reports, feature requests, or questions about the code:
 
-\- GitHub Issues: https://github.com/Abrar2652/oist-comparative-genomics/issues
+- GitHub Issues: https://github.com/Abrar2652/oist-comparative-genomics/issues
 
 
 
@@ -398,11 +398,11 @@ For bug reports, feature requests, or questions about the code:
 
 
 
-\## 📄 License
+## 📄 License
 
 
 
-This project is licensed under the \*\*MIT License\*\* - see the \[LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 
 
@@ -458,31 +458,19 @@ SOFTWARE.
 
 
 
-\## 📚 Additional Resources
+## 📚 Additional Resources
 
 
 
-\### External Links
+### External Links
 
 
 
-\- \[OIST Homepage](https://www.oist.jp/)
+- [OIST Homepage](https://www.oist.jp/)
 
-\- \[Miller Unit](https://groups.oist.jp/pbu)
+- [Miller Unit](https://groups.oist.jp/pbu)
 
-\- \[UCSC Genome Browser](https://genome.ucsc.edu/)
-
-
-
----
-
-
-
-\*\*Last Updated:\*\* November 2025  
-
-\*\*Version:\*\* 1.0.0  
-
-\*\*Status:\*\* Active Research Project
+- [UCSC Genome Browser](https://genome.ucsc.edu/)
 
 
 
@@ -490,5 +478,17 @@ SOFTWARE.
 
 
 
-\*This documentation was prepared as part of the research conducted at the Okinawa Institute of Science and Technology Graduate University (OIST), Physics and Biology Unit, under the supervision of Prof. Jonathan Miller.\*
+**Last Updated:** November 2025  
+
+**Version:** 1.0.0  
+
+**Status:** Active Research Project
+
+
+
+---
+
+
+
+*This documentation was prepared as part of the research conducted at the Okinawa Institute of Science and Technology Graduate University (OIST), Physics and Biology Unit, under the supervision of Prof. Jonathan Miller.*
 
