@@ -32,41 +32,41 @@ This repository contains the computational pipeline, analysis scripts, and resul
 
 1. **Identify Perfectly Conserved Sequences (PCS)**
 
-&nbsp;  - Detect genomic regions with 100% sequence identity across species
+ - Detect genomic regions with 100% sequence identity across species
 
-&nbsp;  - Map conservation patterns in humans and other vertebrates
+ - Map conservation patterns in humans and other vertebrates
 
-&nbsp;  - Extend analysis to insect genomes
+ - Extend analysis to insect genomes
 
 
 
 2. **Analyze Evolutionary Dynamics**
 
-&nbsp;  - Investigate purifying selection mechanisms
+ - Investigate purifying selection mechanisms
 
-&nbsp;  - Study functional constraints maintaining conservation
+ - Study functional constraints maintaining conservation
 
-&nbsp;  - Characterize mutation rates in conserved vs. non-conserved regions
+ - Characterize mutation rates in conserved vs. non-conserved regions
 
 
 
 3. **Comparative Genomics**
 
-&nbsp;  - Multi-species genome alignment
+ - Multi-species genome alignment
 
-&nbsp;  - Phylogenetic analysis of conserved elements
+ - Phylogenetic analysis of conserved elements
 
-&nbsp;  - Functional annotation of conserved regions
+ - Functional annotation of conserved regions
 
 
 
 4. **Computational Methods Development**
 
-&nbsp;  - Efficient algorithms for conservation detection
+ - Efficient algorithms for conservation detection
 
-&nbsp;  - Statistical frameworks for significance testing
+ - Statistical frameworks for significance testing
 
-&nbsp;  - Visualization tools for genomic conservation patterns
+ - Visualization tools for genomic conservation patterns
 
 
 
@@ -134,11 +134,11 @@ Understanding perfectly conserved sequences provides insights into:
 
 - Positions at OIST:
 
-&nbsp; - Research Intern (RI): October 2021 - December 2022
+- Research Intern (RI): October 2021 - December 2022
 
-&nbsp; - Visiting Research Student (VRS): January 2023 - March 2024
+- Visiting Research Student (VRS): January 2023 - March 2024
 
-&nbsp; - Visiting Researcher (VR): April 2024 - March 2025
+- Visiting Researcher (VR): April 2024 - March 2025
 
 - Current Affiliation: CS PhD Student, USC Viterbi School of Engineering
 
@@ -254,17 +254,17 @@ If you use this code or data in your research, please cite:
 
 @software{jahin2025oist,
 
-&nbsp; author = {Jahin, Md Abrar and Miller, Jonathan},
+author = {Jahin, Md Abrar and Miller, Jonathan},
 
-&nbsp; title = {{Evolutionary Dynamics of Strongly Conserved Sequences in Vertebrates and Insects}},
+title = {{Evolutionary Dynamics of Strongly Conserved Sequences in Vertebrates and Insects}},
 
-&nbsp; year = {2025},
+year = {2025},
 
-&nbsp; publisher = {GitHub},
+publisher = {GitHub},
 
-&nbsp; url = {https://github.com/Abrar2652/oist-comparative-genomics},
+url = {https://github.com/Abrar2652/oist-comparative-genomics},
 
-&nbsp; note = {Research conducted at Okinawa Institute of Science and Technology (OIST)}
+note = {Research conducted at Okinawa Institute of Science and Technology (OIST)}
 
 }
 
